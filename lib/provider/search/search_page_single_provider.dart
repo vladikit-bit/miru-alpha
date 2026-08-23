@@ -218,7 +218,7 @@ class SearchPageSingleProvider extends _$SearchPageSingleProvider {
       try {
         final newFilters = await MiruCoreEndpoint.createFilter(
           state.pkg,
-          filter: jsonEncode(selection),
+          filter: selection,
         );
 
         final currentKeys = state.filterOrder;

@@ -66,6 +66,46 @@ class CoreNetwork {
   }
 }
 
+/// Builds a FilterSelection protobuf message from a filter map.
+/// Converts:
+///   "genre": "action" -> FilterSelectionValue(values: ["action"])
+///   "genre": ["action", "shounen"] -> repeated values
+///   null / empty input -> empty FilterSelection
+proto.FilterSelection _buildFilterSelection(Map<String, dynamic>? filter) {
+  final selection = proto.FilterSelection();
+  if (filter == null || filter.isEmpty) {
+    return selection;
+  }
+
+  for (final entry in filter.entries) {
+    final key = entry.key;
+    final value = entry.value;
+    final values = <String>[];
+
+    if (value is String) {
+      if (value.isNotEmpty) {
+        values.add(value);
+      }
+    } else if (value is List) {
+      for (final v in value) {
+        if (v is String && v.isNotEmpty) {
+          values.add(v);
+        }
+      }
+    }
+
+    if (values.isNotEmpty) {
+      selection.selections[key] = proto.FilterSelectionValue(values: values);
+    } else {
+      // For empty values, we still set an empty FilterSelectionValue to indicate
+      // the filter was explicitly selected but with no values
+      selection.selections[key] = proto.FilterSelectionValue(values: []);
+    }
+  }
+
+  return selection;
+}
+
 class MiruCoreEndpoint {
   static Detail _detailFromProto(proto.Detail p) {
     return Detail(
@@ -209,10 +249,10 @@ class MiruCoreEndpoint {
 
   static Future<Map<String, pb_extension.ExtensionFilter>> createFilter(
     String pkg, {
-    String? filter,
+    Map<String, dynamic>? filter,
   }) async {
     final response = await MiruGrpcClient.extensionClient.createFilter(
-      proto.CreateFilterRequest(pkg: pkg, filter: filter ?? ""),
+      proto.CreateFilterRequest(pkg: pkg, filter: _buildFilterSelection(filter)),
     );
     return response.filters;
   }
@@ -233,19 +273,15 @@ class MiruCoreEndpoint {
     String pkg,
     String kw,
     int page, {
-    dynamic filter,
+    Map<String, dynamic>? filter,
   }) async {
-    String filterStr = "";
-    if (filter != null) {
-      if (filter is String) {
-        filterStr = filter;
-      } else {
-        filterStr = jsonEncode(filter);
-      }
-    }
-
     final response = await MiruGrpcClient.extensionClient.search(
-      proto.SearchRequest(pkg: pkg, kw: kw, page: page, filter: filterStr),
+      proto.SearchRequest(
+        pkg: pkg,
+        kw: kw,
+        page: page,
+        filter: _buildFilterSelection(filter),
+      ),
     );
 
     return response.items;
