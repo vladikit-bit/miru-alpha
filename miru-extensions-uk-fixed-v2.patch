@@ -1,0 +1,3808 @@
+diff --git a/index.json b/index.json
+index 7a1d11a..18eee6b 100644
+--- a/index.json
++++ b/index.json
+@@ -1,50 +1,194 @@
+ [
+     {
+-        "author":  "CakesTwix",
+-        "icon":  "https://www.google.com/s2/favicons?domain=cikava-ideya.top\u0026sz=256",
+-        "lang":  "uk",
+-        "license":  "GPL3",
+-        "name":  "Р¦С–РєР°РІР° Р†РґРµСЏ",
+-        "package":  "cikava-ideya",
+-        "type":  "bangumi",
+-        "url":  "cikava-ideya.js",
+-        "version":  "v0.0.4",
+-        "webSite":  "https://cikava-ideya.top"
+-    },
+-    {
+-        "author":  "CakesTwix",
+-        "icon":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZAw8JCRhrw1pDMb5_nYDPYQOPVC4T1JDH3PpLB5Bf35ts32ohXNFsRic\u0026s=10",
+-        "lang":  "uk",
+-        "license":  "MIT",
+-        "name":  "DoramyWorld",
+-        "package":  "doramy.world",
+-        "type":  "bangumi",
+-        "url":  "doramy.world.js",
+-        "version":  "v0.0.2",
+-        "webSite":  "https://doramy.world"
+-    },
+-    {
+-        "author":  "ported",
+-        "icon":  "https://www.google.com/s2/favicons?domain=uakino.best\u0026sz=256",
+-        "lang":  "uk",
+-        "license":  "MIT",
+-        "name":  "Uakino",
+-        "package":  "uakino",
+-        "type":  "bangumi",
+-        "url":  "uakino.js",
+-        "version":  "v0.0.2",
+-        "webSite":  "https://uakino.best"
+-    },
+-    {
+-        "author":  "CakesTwix",
+-        "icon":  "https://www.google.com/s2/favicons?domain=unimay.media\u0026sz=256",
+-        "lang":  "uk",
+-        "license":  "MIT",
+-        "name":  "Unimay",
+-        "package":  "unimay.media",
+-        "type":  "bangumi",
+-        "url":  "unimay.media.js",
+-        "version":  "v0.0.2",
+-        "webSite":  "https://api.unimay.media"
++        "author": "CakesTwix",
++        "icon": "https://animeon.club/assets/images/short-logo.png",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "AnimeON",
++        "package": "animeon.club",
++        "type": "bangumi",
++        "url": "animeon.club.js",
++        "version": "v0.0.8",
++        "webSite": "https://animeon.club"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=animeua.club&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "AnimeUA",
++        "package": "animeua",
++        "type": "bangumi",
++        "url": "animeua.js",
++        "version": "v0.0.9",
++        "webSite": "https://animeua.club"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=anitube.in.ua&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Anitubeinua",
++        "package": "anitube.in.ua",
++        "type": "bangumi",
++        "url": "anitube.in.ua.js",
++        "version": "v0.0.2",
++        "webSite": "https://anitube.in.ua"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=bambooua.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "BambooUA",
++        "package": "bambooua",
++        "type": "bangumi",
++        "url": "bambooua.js",
++        "version": "v0.0.3",
++        "webSite": "https://bambooua.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=cikava-ideya.top&sz=256",
++        "lang": "uk",
++        "license": "GPL3",
++        "name": "Цікава Ідея",
++        "package": "cikava-ideya",
++        "type": "bangumi",
++        "url": "cikava-ideya.js",
++        "version": "v0.0.5",
++        "webSite": "https://cikava-ideya.top"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZAw8JCRhrw1pDMb5_nYDPYQOPVC4T1JDH3PpLB5Bf35ts32ohXNFsRic&s=10",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "DoramyWorld",
++        "package": "doramy.world",
++        "type": "bangumi",
++        "url": "doramy.world.js",
++        "version": "v0.0.3",
++        "webSite": "https://doramy.world"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=eneyida.tv&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Eneyida",
++        "package": "eneyida.tv",
++        "type": "bangumi",
++        "url": "eneyida.tv.js",
++        "version": "v0.0.2",
++        "webSite": "https://eneyida.tv"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=hentaiukr.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "HentaiUkr 18+",
++        "package": "hentaiukr",
++        "type": "bangumi",
++        "url": "hentaiukr.js",
++        "version": "v0.0.2",
++        "webSite": "https://hentaiukr.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=kinostrain.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Kinostrain",
++        "package": "kinostrain",
++        "type": "bangumi",
++        "url": "kinostrain.js",
++        "version": "v0.0.10",
++        "webSite": "https://kinostrain.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=klonua.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "KlonTV",
++        "package": "klontv",
++        "type": "bangumi",
++        "url": "klontv.js",
++        "version": "v0.0.2",
++        "webSite": "https://klonua.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=serialno.tv&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Serialno",
++        "package": "serialno.tv",
++        "type": "bangumi",
++        "url": "serialno.tv.js",
++        "version": "v0.0.13",
++        "webSite": "https://serialno.tv"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=simpsonsua.tv&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "SimpsonsUA.tv",
++        "package": "simpsonsua.tv",
++        "type": "bangumi",
++        "url": "simpsonsua.tv.js",
++        "version": "v0.0.2",
++        "webSite": "https://simpsonsua.tv"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=uafix.net&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "UAFlix",
++        "package": "uaflix",
++        "type": "bangumi",
++        "url": "uaflix.js",
++        "version": "v0.0.4",
++        "webSite": "https://uafix.net"
++    },
++    {
++        "author": "ported",
++        "icon": "https://www.google.com/s2/favicons?domain=uakino.best&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Uakino",
++        "package": "uakino",
++        "type": "bangumi",
++        "url": "uakino.js",
++        "version": "v0.0.2",
++        "webSite": "https://uakino.best"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=uaserials.pro&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "UASerialsPro",
++        "package": "uaserials.pro",
++        "type": "bangumi",
++        "url": "uaserials.pro.js",
++        "version": "v0.0.2",
++        "webSite": "https://uaserials.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=unimay.media&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Unimay",
++        "package": "unimay.media",
++        "type": "bangumi",
++        "url": "unimay.media.js",
++        "version": "v0.0.3",
++        "webSite": "https://api.unimay.media"
+     }
+-]
+\ No newline at end of file
++]
+diff --git a/repo/animeon.club.js b/repo/animeon.club.js
+index 763182e..bd349a5 100644
+--- a/repo/animeon.club.js
++++ b/repo/animeon.club.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         AnimeON
+-// @version      v0.0.7
++// @version      v0.0.8
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -81,6 +81,11 @@ function moonDecrypt(encoded, key = "mAnK") {
+     }
+ }
+ 
++// Хелпер: Miru v1 може повернути рядок або вже розпарсений JSON
++function parseJson(res) {
++    return typeof res === "string" ? JSON.parse(res) : res;
++}
++
+ export default class extends Extension {
+     async fetch(url, options = {}) {
+         options.headers = options.headers || {};
+@@ -101,7 +106,7 @@ export default class extends Extension {
+         let res;
+         try {
+             res = await this.request(`/api/anime?pageSize=24&pageIndex=${page - 1}`);
+-            if (typeof res === 'string') res = JSON.parse(res);
++            res = parseJson(res);
+         } catch (e) { return []; }
+         
+         if (!res || !Array.isArray(res.results)) return [];
+@@ -116,8 +121,8 @@ export default class extends Extension {
+     async search(kw, page, filter) {
+         let res;
+         try {
+-            res = await this.request(`/api/anime?search=${encodeURIComponent(kw)}`);
+-            if (typeof res === 'string') res = JSON.parse(res);
++            res = await this.request(`/api/anime?search=${encodeURIComponent(kw)}&pageSize=24&pageIndex=${page - 1}`);
++            res = parseJson(res);
+         } catch (e) { return []; }
+         
+         if (!res || !Array.isArray(res.results)) return [];
+@@ -144,25 +149,30 @@ export default class extends Extension {
+         let transRes;
+         try {
+             transRes = await this.request(`/api/player/${animeId}/translations`);
+-            if (typeof transRes === 'string') transRes = JSON.parse(transRes);
++            transRes = parseJson(transRes);
+         } catch (e) { return null; }
+ 
+-        if (!transRes || !transRes.translations) return null;
++        if (!transRes || !Array.isArray(transRes.translations)) {
++            throw new Error("animeon_NO_PLAYERS: translations API returned no list");
++        }
+ 
++        let foundPlayerEntry = false;
+         for (const t of transRes.translations) {
+-            for (const player of t.player) {
++            // API може повернути null/не-масив у t.player — не падати з TypeError (раніше валило watch целиком)
++            const players = Array.isArray(t.player) ? t.player : [];
++            if (!players.length) continue;
++            foundPlayerEntry = true;
++
++            for (const player of players) {
+                 try {
+-                    const epRes = await this.request(`/api/player/${animeId}/episodes?take=100&playerId=${player.id}&translationId=${t.translation.id}&skip=0&includeAlternative=true`);
+-                    if (typeof epRes === 'string') epRes = JSON.parse(epRes);
++                    const epRes = parseJson(await this.request(`/api/player/${animeId}/episodes?take=100&playerId=${player.id}&translationId=${t.translation.id}&skip=0&includeAlternative=true`));
+                     
+                     if (epRes && epRes.episodes && epRes.episodes.length > 0) {
+                         const epId = epRes.episodes[0].id;
+-                        const videoRes = await this.request(`/api/player/${epId}/episode`);
+-                        if (typeof videoRes === 'string') videoRes = JSON.parse(videoRes);
++                        const videoRes = parseJson(await this.request(`/api/player/${epId}/episode`));
+                         if (videoRes.videoUrl || videoRes.fileUrl) return videoRes.videoUrl || videoRes.fileUrl;
+                     } else {
+-                        const directRes = await this.request(`/api/player/${player.id}/${t.translation.id}`);
+-                        if (typeof directRes === 'string') directRes = JSON.parse(directRes);
++                        const directRes = parseJson(await this.request(`/api/player/${player.id}/${t.translation.id}`));
+                         if (directRes && (directRes.videoUrl || directRes.fileUrl)) {
+                             return directRes.videoUrl || directRes.fileUrl;
+                         }
+@@ -170,6 +180,9 @@ export default class extends Extension {
+                 } catch (e) { /* ignore */ }
+             }
+         }
++        if (!foundPlayerEntry) {
++            throw new Error("animeon_NO_PLAYERS: no usable player entries in any translation");
++        }
+         return null;
+     }
+ 
+@@ -180,11 +193,11 @@ export default class extends Extension {
+         let res;
+         try {
+             res = await this.request(apiPath);
+-            if (typeof res === 'string') res = JSON.parse(res);
++            res = parseJson(res);
+             if (res && res.moved === true && res.slug) {
+                 apiPath = `/api/anime/${res.slug}`;
+                 res = await this.request(apiPath);
+-                if (typeof res === 'string') res = JSON.parse(res);
++                res = parseJson(res);
+             }
+         } catch (e) {
+             throw new Error("Failed to load anime API");
+@@ -208,7 +221,7 @@ export default class extends Extension {
+             let episodeInfoMap = {};
+             try {
+                 const infoRes = await this.request(`/api/anime/${res.slug || animeId}/episodes-info`);
+-                if (typeof infoRes === 'string') infoRes = JSON.parse(infoRes);
++                infoRes = parseJson(infoRes);
+                 if (infoRes && Array.isArray(infoRes)) {
+                     for (const ep of infoRes) {
+                         episodeInfoMap[ep.episode] = ep.titleUa || ep.title || "";
+@@ -219,7 +232,7 @@ export default class extends Extension {
+             let transRes;
+             try {
+                 transRes = await this.request(`/api/player/${animeId}/translations`);
+-                if (typeof transRes === 'string') transRes = JSON.parse(transRes);
++                transRes = parseJson(transRes);
+             } catch (e) {
+                 throw new Error("No translations API found");
+             }
+@@ -231,10 +244,11 @@ export default class extends Extension {
+                     const tName = t.translation.name;
+                     if (!tempGroups[tName]) tempGroups[tName] = {};
+                     
+-                    for (const player of t.player) {
++                    // API може повернути null/не-масив у t.player — пропускаємо такі трансляції без TypeError
++                    const players = Array.isArray(t.player) ? t.player : [];
++                    for (const player of players) {
+                         try {
+-                            const epRes = await this.request(`/api/player/${animeId}/episodes?take=100&playerId=${player.id}&translationId=${t.translation.id}&skip=0&includeAlternative=true`);
+-                            if (typeof epRes === 'string') epRes = JSON.parse(epRes);
++                            const epRes = parseJson(await this.request(`/api/player/${animeId}/episodes?take=100&playerId=${player.id}&translationId=${t.translation.id}&skip=0&includeAlternative=true`));
+                             
+                             if (epRes && epRes.episodes) {
+                                 for (const ep of epRes.episodes) {
+@@ -286,7 +300,7 @@ export default class extends Extension {
+             const episodeId = url;
+             try {
+                 let res = await this.request(`/api/player/${episodeId}/episode`);
+-                if (typeof res === 'string') res = JSON.parse(res);
++                res = parseJson(res);
+                 videoUrl = res.videoUrl || res.fileUrl;
+             } catch (e) {
+                 throw new Error("Failed to fetch episode video URL");
+@@ -329,7 +343,10 @@ export default class extends Extension {
+             }
+             
+             const playerHtml = await this.fetch(safeUrl);
+-            const fileMatch = playerHtml.match(/file:'([^']+)'/);
++            // Лапки мають бути симетрично-безпечні: [^"']+ зупиняє захоплення на
++            // першій лапці ЛЮБОГО типу. [^"]+ на file:'...' тягне сміття до
++            // наступної " (напр. до cfg={"quality":"1080"}) і ламає URL.
++            const fileMatch = playerHtml.match(/file:["']([^"']+)["']/);
+             if (fileMatch && fileMatch[1]) {
+                 let streamUrl = fileMatch[1];
+                 if (streamUrl.endsWith(".m3u8")) {
+@@ -411,7 +428,11 @@ export default class extends Extension {
+                             // Якщо це контент s.moonanime.art
+                             if (finalUrl.includes("s.moonanime.art") || finalUrl.includes("moonanime.art/content")) {
+                                 const resolved = await this.resolveMoonContent(finalUrl);
+-                                if (resolved) finalUrl = resolved;
++                                if (!resolved) {
++                                    // Невдача резолва — не віддаємо гравцю неперевірений URL
++                                    throw new Error("MOON_RESOLVE_FAIL: could not resolve " + finalUrl);
++                                }
++                                finalUrl = resolved;
+                             }
+                             
+                             return {
+@@ -427,13 +448,14 @@ export default class extends Extension {
+                 const contentMatch = decodedJs.match(/(https?:\/\/s\.moonanime\.art\/content\/[^\s"'`]+)/);
+                 if (contentMatch && contentMatch[1] && !/\.(jpg|jpeg|png)$/.test(contentMatch[1])) {
+                     const resolved = await this.resolveMoonContent(contentMatch[1]);
+-                    if (resolved) {
+-                        return {
+-                            type: "mp4",
+-                            url: resolved,
+-                            headers: moonHeaders
+-                        };
++                    if (!resolved) {
++                        throw new Error("MOON_RESOLVE_FAIL: could not resolve " + contentMatch[1]);
+                     }
++                    return {
++                        type: "mp4",
++                        url: resolved,
++                        headers: moonHeaders
++                    };
+                 }
+             }
+             
+@@ -442,13 +464,14 @@ export default class extends Extension {
+             if (hashMatch && hashMatch[1]) {
+                 const hash = hashMatch[1];
+                 const resolved = await this.resolveMoonContent(`https://s.moonanime.art/content/v/${hash}/1080/`);
+-                if (resolved) {
+-                    return {
+-                        type: "mp4",
+-                        url: resolved,
+-                        headers: moonHeaders
+-                    };
++                if (!resolved) {
++                    throw new Error("MOON_RESOLVE_FAIL: could not resolve content for iframe hash " + hash);
+                 }
++                return {
++                    type: "mp4",
++                    url: resolved,
++                    headers: moonHeaders
++                };
+             }
+             
+             throw new Error("Moon: No stream URL found");
+diff --git a/repo/animeua.js b/repo/animeua.js
+index a0f025f..b2dc434 100644
+--- a/repo/animeua.js
++++ b/repo/animeua.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         AnimeUA
+-// @version      v0.0.8
++// @version      v0.0.9
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -45,7 +45,8 @@ export default class extends Extension {
+     async checkUpdate(url) { return ""; }
+ 
+     async latest(page) {
+-        const res = await this.request(`/page/${page}/`);
++        // R4: через fetch-обгортку файлу (UA + Referer), а не голий this.request
++        const res = await this.fetch(`/page/${page}/`);
+         const items = await this.querySelectorAll(res, "a.poster");
+         const results = [];
+         
+@@ -68,11 +69,11 @@ export default class extends Extension {
+     async search(kw, page, filter) {
+         const res = await this.request("", {
+             method: "POST",
+-            data: {
+-                do: "search",
+-                subaction: "search",
+-                story: kw.replace(" ", "+")
+-            },
++            // miru-core (network.RequestOptions) не мапить data: на тіло запиту —
++            // form-тіло POST передається через request_body; пробіли -> "+"
++            // (формне кодування DLE), решта символів — encodeURIComponent.
++            request_body: "do=search&subaction=search&story=" +
++                encodeURIComponent(kw.trim().replace(/\s+/g, " ")).replace(/%20/g, "+"),
+             headers: {
+                 "Miru-Url": mainUrl,
+                 "Content-Type": "application/x-www-form-urlencoded"
+@@ -103,9 +104,14 @@ export default class extends Extension {
+         const playerHtml = await this.fetch(safeUrl);
+         
+         const scripts = await this.querySelectorAll(playerHtml, "script");
++        if (!scripts || scripts.length === 0) {
++            throw new Error("ANIMEUA_PLAYER_FAIL: no scripts found in player page");
++        }
++
++        // R1: вміст <script> у Miru v1 читається через .content (не .text!)
+         let scriptHtml = "";
+         for (const script of scripts) {
+-            scriptHtml += (await script.text || "") + "\n";
++            scriptHtml += script.content + "\n";
+         }
+         
+         const fileMatch = scriptHtml.match(/file\s*:\s*'([^']+)'/);
+@@ -121,19 +127,19 @@ export default class extends Extension {
+         try {
+             const titleEl = await this.querySelector(res, ".page__subcol-main h1");
+             title = (await titleEl?.text || "").trim();
+-        } catch (e) { /* ignore */ }
++        } catch (e) { /* некритично: метадані відображення */ }
+ 
+         let poster = "";
+         try {
+             poster = await this.getAttributeText(res, "div.page__subcol-side .img-fit-cover img", "data-src");
+             if (poster && !poster.startsWith("http")) poster = mainUrl + poster;
+-        } catch (e) { /* ignore */ }
++        } catch (e) { /* некритично: метадані відображення */ }
+ 
+         let desc = "";
+         try {
+             const descEl = await this.querySelector(res, ".full-text");
+             desc = (await descEl?.text || "").trim();
+-        } catch (e) { /* ignore */ }
++        } catch (e) { /* некритично: метадані відображення */ }
+ 
+         const playerUrl = await this.getAttributeText(res, ".video-responsive > iframe", "data-src");
+         if (!playerUrl) throw new Error("No player iframe found");
+@@ -152,7 +158,9 @@ export default class extends Extension {
+         let rawFile = "";
+         try {
+             rawFile = await this.fetchPlayerData(safePlayerUrl);
+-        } catch (e) { /* ignore */ }
++        } catch (e) {
++            throw new Error("ANIMEUA_DETAIL_FAIL: player data unavailable: " + (e?.message || e));
++        }
+         
+         // Намагаємося розпарсити як JSON (для серіалів)
+         let playlist = null;
+@@ -179,7 +187,7 @@ export default class extends Extension {
+                             episodes.push({
+                                 name: `${seasonTitle} - ${ep.title}`,
+                                 // Передаємо індекси через query-параметри
+-                                url: `${safePlayerUrl}?dub=${d}&season=${s}&ep=${e}`
++                                url: `${safePlayerUrl}${safePlayerUrl.includes("?") ? "&" : "?"}dub=${d}&season=${s}&ep=${e}`
+                             });
+                         }
+                     }
+@@ -193,7 +201,7 @@ export default class extends Extension {
+             // Фільм: передаємо playerUrl, watch() сам витягне rawFile
+             episodeGroups.push({
+                 title: "Фільм",
+-                urls: [{ name: title || "Дивитися", url: `${safePlayerUrl}?movie=1` }]
++                urls: [{ name: title || "Дивитися", url: `${safePlayerUrl}${safePlayerUrl.includes("?") ? "&" : "?"}movie=1` }]
+             });
+         }
+ 
+@@ -212,20 +220,10 @@ export default class extends Extension {
+         let playerUrl = "";
+         let isMovie = false;
+         let dubIndex = -1, seasonIndex = -1, epIndex = -1;
+-        let oldSeasonTitle = "", oldEpisodeTitle = "";
+ 
+-        // Перевіряємо старий формат (movie: або series:)
+-        if (url.startsWith("movie:")) {
+-            isMovie = true;
+-            playerUrl = url.replace("movie:", "");
+-        } else if (url.startsWith("series:")) {
+-            const parts = url.split("|");
+-            if (parts.length < 3) throw new Error("Invalid series watch state");
+-            playerUrl = parts[0].replace("series:", "");
+-            oldSeasonTitle = parts[1].trim();
+-            oldEpisodeTitle = parts[2].trim();
+-        } else {
+-            // Новий формат: ?movie=1 або ?dub=0&season=0&ep=0
++        // Формат стану: <playerUrl>?movie=1 або <playerUrl>?dub=0&season=0&ep=0
++        // (легасі movie:/series:-стани видалено — detail() їх більше не створює)
++        {
+             const queryIndex = url.indexOf("?");
+             if (queryIndex === -1) throw new Error("Invalid watch state");
+             
+@@ -283,42 +281,23 @@ export default class extends Extension {
+                 playlist = JSON.parse(rawFile);
+             } catch (e) { /* ignore */ }
+             
+-            if (Array.isArray(playlist)) {
+-                // Якщо використовується старий формат (series:|season|ep)
+-                if (oldSeasonTitle && oldEpisodeTitle) {
+-                    for (const dub of playlist) {
+-                        if (!dub.folder) continue;
+-                        for (const season of dub.folder) {
+-                            if (season.title.trim() !== oldSeasonTitle || !season.folder) continue;
+-                            for (const ep of season.folder) {
+-                                if (ep.title.trim() === oldEpisodeTitle && ep.file) {
+-                                    streamUrl = ep.file;
+-                                    break;
+-                                }
+-                            }
+-                        }
+-                    }
+-                } else {
+-                    // Новий формат (індекси)
+-                    if (dubIndex >= 0 && seasonIndex >= 0 && epIndex >= 0) {
+-                        const dub = playlist[dubIndex];
+-                        if (dub && dub.folder) {
+-                            const season = dub.folder[seasonIndex];
+-                            if (season && season.folder) {
+-                                const ep = season.folder[epIndex];
+-                                if (ep && ep.file) {
+-                                    streamUrl = ep.file;
+-                                }
+-                            }
+-                        }
+-                    }
+-                }
+-                
+-                // Fallback: якщо не знайшли за індексами або назвами, шукаємо перший file
+-                if (!streamUrl) {
+-                    streamUrl = findFirstFile(playlist) || "";
+-                }
++            if (!Array.isArray(playlist)) {
++                throw new Error("ANIMEUA_EXTRACT_FAIL: playlist is not a JSON array: " + String(rawFile).substring(0, 150));
++            }
++
++            // Індексний формат ?dub=&season=&ep=. Тихого fallback на перший file більше нема —
++            // він грав НЕ ТУ серію замість обраної користувачем.
++            if (dubIndex < 0 || seasonIndex < 0 || epIndex < 0) {
++                throw new Error("ANIMEUA_EXTRACT_FAIL: missing dub/season/ep indices in " + url);
++            }
++
++            const dub = playlist[dubIndex];
++            const season = dub && Array.isArray(dub.folder) ? dub.folder[seasonIndex] : null;
++            const ep = season && Array.isArray(season.folder) ? season.folder[epIndex] : null;
++            if (!ep || !ep.file) {
++                throw new Error(`ANIMEUA_EXTRACT_FAIL: episode not found (dub=${dubIndex}, season=${seasonIndex}, ep=${epIndex})`);
+             }
++            streamUrl = ep.file;
+         }
+ 
+         if (!streamUrl) {
+@@ -342,7 +321,8 @@ export default class extends Extension {
+         streamUrl = fixUrl(streamUrl);
+         
+         return {
+-            type: "hls",
++            // R6: тип за розширенням URL, а не хардкод
++            type: streamUrl.includes(".m3u8") ? "hls" : "mp4",
+             url: streamUrl,
+             headers: {
+                 "Referer": "https://tortuga.wtf/",
+diff --git a/repo/anitube.in.ua.js b/repo/anitube.in.ua.js
+index bc84d78..0c48285 100644
+--- a/repo/anitube.in.ua.js
++++ b/repo/anitube.in.ua.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         Anitubeinua
+-// @version      v0.0.1
++// @version      v0.0.2
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -32,6 +32,8 @@ function fixUrl(url) {
+     return mainUrl + "/" + url;
+ }
+ 
++// R10 (НЕ МІНЯТИ): https→http для ashdi.vip — протестований workaround,
++// частина CDN-вузлів ashdi має невалідний TLS-ланцюжок.
+ function fixAshdiTls(url) {
+     if (url && url.includes("ashdi.vip")) {
+         return url.replace("https://", "http://");
+@@ -127,9 +129,34 @@ export default class extends Extension {
+     }
+ 
+     async checkUpdate(url) {
++        // Заглушка залишається як є (розширення не має механізму перевірки оновлень)
+         return "";
+     }
+ 
++    tryParseJson(text) {
++        try {
++            return JSON.parse(text);
++        } catch (e) {
++            return null;
++        }
++    }
++
++    // Спільний екстрактор прямого відео-URL із коду плеєра.
++    // Було ×3 однакові копії (csst / monstro / fallback) — тепер одна реалізація.
++    // Регекс шукає рядки з .m3u8/.mp4; HLS має пріоритет над mp4.
++    extractFileUrl(scriptData) {
++        if (!scriptData || typeof scriptData !== "string") return "";
++
++        const regex = /["']([^"']+\.(?:m3u8|mp4)[^"']*)["']/g;
++        let firstAny = "";
++        let m;
++        while ((m = regex.exec(scriptData)) !== null) {
++            if (!firstAny) firstAny = m[1];
++            if (m[1].includes(".m3u8")) return m[1]; // HLS пріоритет
++        }
++        return firstAny;
++    }
++
+     async parseItems(html) {
+         const items = await this.querySelectorAll(html, "article.story");
+         const results = [];
+@@ -189,29 +216,52 @@ export default class extends Extension {
+     }
+ 
+     async latest(page) {
+-        const res = await this.request(`/anime/page/${page}`);
++        // R4: запит тільки через fetch-обгортку (UA/Referer), було «голе» this.request
++        let res;
++        try {
++            res = await this.fetch(`/anime/page/${page}`);
++        } catch (e) {
++            // R13: у списках дозволено згортати мережевий збій у порожню сторінку
++            return [];
++        }
+         return await this.parseItems(res);
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request("", {
+-            method: "POST",
+-            data: {
+-                do: "search",
+-                subaction: "search",
+-                story: kw
+-            },
+-            headers: {
+-                "Miru-Url": mainUrl,
+-                "Content-Type": "application/x-www-form-urlencoded"
+-            }
+-        });
++        // TODO(page): DLE POST-search: підтримку пагінації сервером не підтверджено,
++        // тому параметр page наразі ІГНОРУЄТЬСЯ (завжди спільна видача).
++        // Якщо з’ясується, що сайт віддає сторінки — додати search_start / page-параметр.
++        const trimmed = typeof kw === "string" ? kw.trim() : "";
++        if (!trimmed) return [];
++
++        let res;
++        try {
++            res = await this.fetch("", {
++                method: "POST",
++                // miru-core не мапить data: на тіло запиту — form-тіло POST
++                // передається через request_body
++                request_body: "do=search&subaction=search&story=" +
++                    encodeURIComponent(trimmed.replace(/\s+/g, " ")).replace(/%20/g, "+"),
++                headers: {
++                    "Miru-Url": mainUrl,
++                    "Content-Type": "application/x-www-form-urlencoded"
++                }
++            });
++        } catch (e) {
++            // R13: у списках catch→[] допустимий
++            return [];
++        }
+ 
+         return await this.parseItems(res);
+     }
+ 
+     async detail(url) {
+-        const res = await this.fetch(url);
++        let res;
++        try {
++            res = await this.fetch(url);
++        } catch (e) {
++            throw new Error(`ANITUBE_DETAIL_FAIL: failed to load page ${url}: ${e}`);
++        }
+         
+         let title = "";
+         try {
+@@ -230,53 +280,97 @@ export default class extends Extension {
+             desc = (await descEl?.text || "").trim();
+         } catch (e) { /* ignore */ }
+ 
+-        // Extract dle_login_hash
+-        const hashMatch = res.match(/dle_login_hash = '([^']+)'/);
+-        const dleLoginHash = hashMatch ? hashMatch[1] : "";
+-
+         // Extract news_id
+         const idMatch = url.split("/").pop().match(/^(\d+)/);
+         const newsId = idMatch ? idMatch[1] : null;
+-        
+-        const episodeGroups = [];
+-        
+-        if (newsId && dleLoginHash) {
+-            const ajaxUrl = `/engine/ajax/playlists.php?news_id=${newsId}&xfield=playlist&user_hash=${dleLoginHash}`;
+-            const ajaxRes = await this.fetch(ajaxUrl, {
++
++        if (!newsId) {
++            throw new Error(`ANITUBE_DETAIL_FAIL: could not extract news_id from URL: ${url}`);
++        }
++
++        // dle_login_hash існує лише в авторизованій сесії DLE. Для гостя він ПОРОЖНІЙ,
++        // але AJAX playlists.php усе одно викликається з user_hash="" — сервер часто
++        // віддає плейлист і без хеша. Вимогу прибрано: раніше гість мовчки отримував
++        // "No episodes found". Якщо відповідь — HTML-сторінка логіна або success:false,
++        // це явний ANITUBE_AUTH_REQUIRED.
++        const hashMatch = res.match(/dle_login_hash = '([^']+)'/);
++        const dleLoginHash = hashMatch ? hashMatch[1] : "";
++
++        const ajaxUrl = `/engine/ajax/playlists.php?news_id=${newsId}&xfield=playlist&user_hash=${dleLoginHash}`;
++        let ajaxRes;
++        try {
++            ajaxRes = await this.fetch(ajaxUrl, {
+                 headers: {
+                     "X-Requested-With": "XMLHttpRequest"
+                 }
+             });
+-            
+-            if (ajaxRes && ajaxRes.success && ajaxRes.response) {
+-                const playlistHtml = ajaxRes.response;
+-                const items = await this.querySelectorAll(playlistHtml, ".playlists-videos .playlists-items li");
+-                
+-                const episodes = [];
+-                
+-                for (const item of items) {
+-                    const itemHtml = item.content;
+-                    const fileUrl = await this.getAttributeText(itemHtml, "li", "data-file");
+-                    const dataId = await this.getAttributeText(itemHtml, "li", "data-id");
+-                    let epName = (await this.querySelector(itemHtml, "li")?.text || "").trim();
+-
+-                    if (fileUrl) {
+-                        // Додаємо ID або позначку, якщо є дублікати назв епізодів
+-                        if (dataId && dataId !== "0_0_0_0") {
+-                            epName = `${epName} (${dataId})`;
+-                        }
+-                        episodes.push({ name: epName, url: fixUrl(fileUrl) });
+-                    }
+-                }
+-                
+-                if (episodes.length > 0) {
+-                    episodeGroups.push({ title: "Епізоди", urls: episodes });
++        } catch (e) {
++            throw new Error(`ANITUBE_DETAIL_FAIL: playlist AJAX request failed: ${e}`);
++        }
++        
++        if (typeof ajaxRes === "string") {
++            const parsed = this.tryParseJson(ajaxRes);
++            if (parsed === null) {
++                // Не-JSON відповідь: найчастіше DLE повертає HTML сторінки входу
++                if (/do=login|<form[\s>]/i.test(ajaxRes)) {
++                    throw new Error("ANITUBE_AUTH_REQUIRED: site returned a login page instead of playlist");
+                 }
++                throw new Error("ANITUBE_DETAIL_FAIL: unexpected playlist response (not JSON)");
++            }
++            ajaxRes = parsed;
++        }
++
++        const episodeGroups = [];
++
++        if (ajaxRes && ajaxRes.success && ajaxRes.response) {
++            const playlistHtml = ajaxRes.response;
++            const items = await this.querySelectorAll(playlistHtml, ".playlists-videos .playlists-items li");
++            if (!items || items.length === 0) {
++                throw new Error("ANITUBE_DETAIL_FAIL: playlist block exists but has no li items");
++            }
++            
++            // R7 (voiceMap-патерн uakino): DLE-playlists позначає озвучку атрибутом
++            // data-voice. Раніше всі голоси звалювались в один список «Епізоди».
++            const voiceMap = {};
++            
++            for (const item of items) {
++                const itemHtml = item.content;
++                const fileUrl = await this.getAttributeText(itemHtml, "li", "data-file");
++                const dataVoice = await this.getAttributeText(itemHtml, "li", "data-voice");
++
++                // R2: назву епізоду беремо прямо з text ноди; сирі службові суфікси
++                // виду "(1_2_0_0)" з назви видаляємо
++                const rawName = ((await item?.text ?? "") + "").trim();
++                const epName = rawName.replace(/\s*\(\d+(?:_\d+)+\)\s*$/, "").trim();
++
++                if (!fileUrl) continue;
++
++                const voice = dataVoice || "Основна озвучка";
++                if (!voiceMap[voice]) voiceMap[voice] = [];
++                voiceMap[voice].push({ name: epName || "Епізод", url: fixUrl(fileUrl) });
++            }
++
++            const groups = Object.entries(voiceMap).map(([voice, urls]) => ({
++                title: voice,
++                urls
++            }));
++            
++            if (groups.length > 0) {
++                episodeGroups.push(...groups);
+             }
++        } else {
++            // Явна відмова сервера: як правило невалідний user_hash (гостьовий сеанс)
++            // або плейлист недоступний без авторизації
++            const serverMsg = ajaxRes && typeof ajaxRes.message === "string" ? ajaxRes.message : "";
++            throw new Error(
++                serverMsg
++                    ? `ANITUBE_AUTH_REQUIRED: server refused playlist: ${serverMsg}`
++                    : "ANITUBE_AUTH_REQUIRED: server refused playlist (empty user_hash / guest session?)"
++            );
+         }
+         
+         if (episodeGroups.length === 0) {
+-            throw new Error("No episodes found");
++            throw new Error("ANITUBE_DETAIL_FAIL: no playable episodes after parsing playlist");
+         }
+ 
+         return {
+@@ -292,8 +386,15 @@ export default class extends Extension {
+             throw new Error("No stream URL provided");
+         }
+ 
++        // R10: https→http для ashdi — свідомий workaround, не міняти
+         const safeUrl = fixAshdiTls(url);
+-        const playerHtml = await this.fetch(safeUrl);
++
++        let playerHtml;
++        try {
++            playerHtml = await this.fetch(safeUrl);
++        } catch (e) {
++            throw new Error(`ANITUBE_WATCH_FAIL: failed to load player ${safeUrl}: ${e}`);
++        }
+ 
+         let streamUrl = null;
+         let referer = mainUrl;
+@@ -305,19 +406,24 @@ export default class extends Extension {
+                 "/vod/"
+             );
+ 
+-            const vodHtml = await this.fetch(vodUrl);
++            let vodHtml;
++            try {
++                vodHtml = await this.fetch(vodUrl);
++            } catch (e) {
++                throw new Error(`ANITUBE_WATCH_FAIL: failed to load ashdi vod ${vodUrl}: ${e}`);
++            }
+ 
+-            const fileMatch = vodHtml.match(
+-                /file\s*:\s*["']([^"']+)["']/
+-            );
++            const extracted = this.extractFileUrl(vodHtml);
+ 
+-            if (fileMatch && fileMatch[1]) {
+-                streamUrl = fixAshdiTls(fileMatch[1]);
++            if (extracted) {
++                streamUrl = fixAshdiTls(extracted);
++                // Хардкод Referer qeruya.cyou — вимога CDN ashdi (без нього 403).
++                // НЕ міняти (R10)
+                 referer = "https://qeruya.cyou";
+             }
+         }
+ 
+-        // 2. Moon Extractor
++        // 2. Moon Extractor (власний ланцюжок дешифрування blob'ів — спільний regex тут не застосовується)
+         else if (safeUrl.includes("moonanime.art")) {
+             const atobMatch = playerHtml.match(
+                 /atob\s*\(\s*["']([^"']+)["']\s*\)/
+@@ -375,35 +481,18 @@ export default class extends Extension {
+             }
+         }
+ 
+-        // 3. csst / monstro Extractor
+-        else if (
+-            safeUrl.includes("csst.online") ||
+-            safeUrl.includes("monstro.site") ||
+-            safeUrl.includes("monstro.online")
+-        ) {
+-            const fileMatch = playerHtml.match(
+-                /file\s*:\s*["']([^"']+)["']/
+-            );
+-
+-            if (fileMatch && fileMatch[1]) {
+-                streamUrl = fileMatch[1];
+-            }
+-        }
+-
+-        // 4. Fallback
++        // 3+4. csst / monstro та всі інші хости — ОДНА спільна гілка через extractFileUrl,
++        // бо раніше тут було ×3 ідентичні копії екстрактора
+         else {
+-            const fileMatch = playerHtml.match(
+-                /file\s*:\s*["']([^"']+)["']/
+-            );
+-
+-            if (fileMatch && fileMatch[1]) {
+-                streamUrl = fileMatch[1];
++            const extracted = this.extractFileUrl(playerHtml);
++            if (extracted) {
++                streamUrl = extracted;
+             }
+         }
+ 
+         if (!streamUrl) {
+             throw new Error(
+-                "Failed to extract stream URL"
++                `ANITUBE_WATCH_FAIL: failed to extract stream URL from ${safeUrl}`
+             );
+         }
+ 
+diff --git a/repo/bambooua.js b/repo/bambooua.js
+index 431d1c9..8444362 100644
+--- a/repo/bambooua.js
++++ b/repo/bambooua.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         BambooUA
+-// @version      v0.0.2
++// @version      v0.0.3
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -11,6 +11,8 @@
+ // ==/MiruExtension==
+ 
+ const mainUrl = "https://bambooua.com";
++// R4: без UA сайт віддає порожні/захищені відповіді — ставимо скрізь
++const UA = "Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.215 Mobile Safari/537.36";
+ 
+ function fixUrl(url) {
+     if (!url) return "";
+@@ -20,14 +22,73 @@ function fixUrl(url) {
+     return mainUrl + "/" + url;
+ }
+ 
++// Витяг інлайнового JS-плейлиста: спершу regex по декларації,
++// fallback — легасі marker-slicing (не падає при зміні шаблону)
++function extractPlaylistRaw(html) {
++    const declMatch = html.match(/(?:const|let|var)\s+playlist\s*=\s*(\[[\s\S]*?\]);/);
++    if (declMatch && declMatch[1]) return declMatch[1];
++
++    const startMarker = "const playlist = ";
++    const startIdx = html.indexOf(startMarker);
++    if (startIdx !== -1) {
++        const endMarker = "const player";
++        const endIdx = html.indexOf(endMarker, startIdx);
++        if (endIdx !== -1) {
++            return html.substring(startIdx + startMarker.length, endIdx).trim().replace(/;$/, "");
++        }
++    }
++    return "";
++}
++
++// Eval-free JSON-fix ланцюжком спроб (без eval):
++// 1) вербатим парс -> 2) trailing comma cleanup -> 3) одинарні лапки -> подвійні ->
++// 4) останній шанс — незаквочені ключі (якщо шаблон генерує JS-об'єкт замість JSON)
++function jsonFixParse(raw) {
++    const stripCommas = (s) => s.replace(/,\s*([\]}])/g, "$1");
++    const dequote = (s) => s.replace(/'((?:[^'\\]|\\.)*)'/g, '"$1"');
++    const quoteKeys = (s) => s.replace(/([{,]\s*)([A-Za-z_][A-Za-z0-9_-]*)(\s*:)/g, '$1"$2"$3');
++
++    const attempts = [raw, stripCommas(raw), dequote(stripCommas(raw)), quoteKeys(dequote(stripCommas(raw)))];
++    let lastErr = null;
++    for (const candidate of attempts) {
++        try {
++            return JSON.parse(candidate);
++        } catch (e) {
++            lastErr = e;
++        }
++    }
++    throw lastErr || new Error("JSON parse failed");
++}
++
+ export default class extends Extension {
++    // R4: заголовки для всіх запитів (uakino-патерн)
++    siteHeaders() {
++        return {
++            "User-Agent": UA,
++            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
++            "Accept-Language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
++            "Referer": mainUrl + "/",
++        };
++    }
++
++    ajaxHeaders() {
++        return {
++            "Referer": mainUrl + "/",
++            "X-Requested-With": "XMLHttpRequest",
++            "User-Agent": UA,
++        };
++    }
++
+     async fetch(url, options = {}) {
++        // База siteHeaders, викликач може перевизначити/додати свої хедери
++        const merged = Object.assign({}, options);
++        merged.headers = Object.assign(this.siteHeaders(), options.headers || {});
++
+         if (url.startsWith("http://") || url.startsWith("https://")) {
+-            options.headers = options.headers || {};
+-            options.headers["Miru-Url"] = url;
+-            return this.request("", options);
++            merged.headers["Miru-Url"] = url;
++            return this.request("", merged);
+         }
+-        return this.request(url, options);
++        return this.request(url, merged);
+     }
+ 
+     async createFilter(filter) {
+@@ -41,9 +102,15 @@ export default class extends Extension {
+     async parseItems(html) {
+         if (!html || typeof html !== 'string') return [];
+         
+-        const items = await this.querySelectorAll(html, "article.swiper-slide");
+-        const results = [];
++        // Селектори по черзі — перший непорожній перемагає
++        let items = [];
++        for (const sel of ["article.swiper-slide", "article", "div.short-item"]) {
++            items = await this.querySelectorAll(html, sel);
++            if (items && items.length > 0) break;
++        }
++        if (!items || items.length === 0) return [];
+         
++        const results = [];
+         for (const item of items) {
+             // У Alpha V1 item може бути рядком або об'єктом
+             const itemHtml = item.content || item || "";
+@@ -58,7 +125,9 @@ export default class extends Extension {
+                 title = (await titleEl?.text || "").trim();
+             } catch (e) { /* ignore */ }
+             
+-            const poster = await this.getAttributeText(itemHtml, "div.poster img", "src");
++            // data-src || src (lazyload fallback)
++            let poster = await this.getAttributeText(itemHtml, "div.poster img", "data-src");
++            if (!poster) poster = await this.getAttributeText(itemHtml, "div.poster img", "src");
+             
+             results.push({ 
+                 title: title || "Без назви", 
+@@ -70,13 +139,26 @@ export default class extends Extension {
+     }
+ 
+     async latest(page) {
+-        // Використовуємо секцію "Фільми" як основну
+-        const res = await this.request(`/filmy/page/${page}/`);
++        // Використовуємо секцію "Фільми" як основну; пагінація /page/N/
++        const res = await this.fetch(`/filmy/page/${page}/`);
+         return await this.parseItems(res);
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request(`/index.php?do=search&subaction=search&story=${encodeURIComponent(kw)}`);
++        // TODO(page): верстка видачі пошуку не підтверджує /page/N/, pageIndex поки не підключаємо
++        const story = String(kw || "").trim().replace(/\s+/g, " ");
++        // DLE-стандарт: POST замість GET /index.php?do=search&...story=
++        // miru-core не мапить data: на тіло запиту — form-тіло POST передається
++        // через request_body
++        const res = await this.fetch("/index.php", {
++            method: "post",
++            request_body: "do=search&subaction=search&story=" +
++                encodeURIComponent(story).replace(/%20/g, "+"),
++            headers: {
++                // без Content-Type PHP не розбере form-тіло ($_POST лишиться порожнім)
++                "Content-Type": "application/x-www-form-urlencoded"
++            },
++        });
+         return await this.parseItems(res);
+     }
+ 
+@@ -91,7 +173,9 @@ export default class extends Extension {
+ 
+         let poster = "";
+         try {
+-            poster = await this.getAttributeText(res, "div.poster img", "src");
++            // data-src || src (lazyload fallback)
++            poster = await this.getAttributeText(res, "div.poster img", "data-src");
++            if (!poster) poster = await this.getAttributeText(res, "div.poster img", "src");
+         } catch (e) { /* ignore */ }
+ 
+         let desc = "";
+@@ -100,42 +184,34 @@ export default class extends Extension {
+             desc = (await descEl?.text || "").trim();
+         } catch (e) { /* ignore */ }
+         
+-        // Extract inline playlist
+-        const startMarker = "const playlist = ";
+-        const startIdx = res.indexOf(startMarker);
+-        
+-        if (startIdx === -1) {
+-            throw new Error("Playlist marker not found");
+-        }
+-        
+-        const endMarker = "const player";
+-        const endIdx = res.indexOf(endMarker, startIdx);
+-        
+-        if (endIdx === -1) {
+-            throw new Error("Playlist end marker not found");
+-        }
+-        
+-        let jsonStr = res.substring(startIdx + startMarker.length, endIdx).trim().replace(/;$/, "");
+-        
++        // R13: критична стадія — помилки з осмисленим контекстом BAMBOO_PARSE_FAIL
+         let playlist;
+         try {
+-            playlist = JSON.parse(jsonStr);
++            const rawPlaylist = extractPlaylistRaw(res);
++            if (!rawPlaylist) {
++                throw new Error("BAMBOO_PARSE_FAIL: inline playlist declaration not found in page HTML");
++            }
++            playlist = jsonFixParse(rawPlaylist);
+         } catch (e) {
+-            throw new Error("Failed to parse playlist JSON: " + e.message);
++            if (/^BAMBOO_PARSE_FAIL/.test(String(e && e.message))) throw e;
++            throw new Error("BAMBOO_PARSE_FAIL: " + (e && e.message ? e.message : e));
+         }
+ 
+-        if (!Array.isArray(playlist)) {
+-            throw new Error("Playlist is not an array");
++        if (!Array.isArray(playlist) || playlist.length === 0) {
++            throw new Error("BAMBOO_PARSE_FAIL: playlist is empty or not an array");
+         }
+ 
+         const isMovie = url.includes("/film/") || url.includes("/movies/");
+         const episodeGroups = [];
+ 
+         if (isMovie) {
+-            const streamUrl = playlist[0]?.file || "";
++            const streamUrl = fixUrl(playlist[0] && playlist[0].file ? playlist[0].file : "");
++            if (!streamUrl) {
++                throw new Error("BAMBOO_DETAIL_FAIL: movie has no playable file in playlist");
++            }
+             episodeGroups.push({
+                 title: "Фільм",
+-                urls: [{ name: title, url: fixUrl(streamUrl) }]
++                urls: [{ name: title, url: streamUrl }]
+             });
+         } else {
+             const episodes = [];
+@@ -149,7 +225,7 @@ export default class extends Extension {
+             });
+             
+             if (episodes.length === 0) {
+-                throw new Error("No playable episodes found");
++                throw new Error("BAMBOO_DETAIL_FAIL: no playable episodes found in series playlist");
+             }
+             
+             episodeGroups.push({
+@@ -171,11 +247,13 @@ export default class extends Extension {
+             throw new Error("No stream URL provided");
+         }
+         
++        // R6: тип стріму за розширенням, а не хардкод
+         return {
+-            type: "hls",
++            type: url.includes(".m3u8") ? "hls" : "mp4",
+             url: url,
+             headers: {
+-                "Referer": mainUrl + "/"
++                "Referer": mainUrl + "/",
++                "User-Agent": UA,
+             }
+         };
+     }
+diff --git a/repo/cikava-ideya.js b/repo/cikava-ideya.js
+index 7958a12..2fe0bfb 100644
+--- a/repo/cikava-ideya.js
++++ b/repo/cikava-ideya.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         Цікава Ідея
+-// @version      v0.0.4
++// @version      v0.0.5
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      GPL3
+@@ -11,6 +11,7 @@
+ // ==/MiruExtension==
+ 
+ const mainUrl = "https://cikava-ideya.top";
++const UA = "Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.215 Mobile Safari/537.36";
+ 
+ function fixUrl(url) {
+     if (!url) return "";
+@@ -55,7 +56,6 @@ function parseCikavaPlayerJson(html) {
+         const fixedJsonStr = fixDleJson(jsonStr);
+         return JSON.parse(fixedJsonStr);
+     } catch (e) {
+-        console.log("JSON Parse Error:", e.message);
+         return {};
+     }
+ }
+@@ -96,8 +96,14 @@ function parseCikavaPlayerData(scriptHtml) {
+ 
+ export default class extends Extension {
+     async fetch(url, options = {}) {
++        // Базові заголовки на всі запити; специфічні від викликача мають пріоритет
++        options.headers = Object.assign({
++            "User-Agent": UA,
++            "Accept-Language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
++            "Referer": mainUrl + "/"
++        }, options.headers || {});
++
+         if (url.startsWith("http://") || url.startsWith("https://")) {
+-            options.headers = options.headers || {};
+             options.headers["Miru-Url"] = url;
+             return this.request("", options);
+         }
+@@ -113,8 +119,9 @@ export default class extends Extension {
+     }
+ 
+     async latest(page) {
+-    const res = await this.request(`/filmy/page/${page}`);
++    const res = await this.fetch(`/filmy/page/${page}`);
+     const items = await this.querySelectorAll(res, ".th-item");
++    if (!items || items.length === 0) return [];
+     const results = [];
+ 
+     for (const item of items) {
+@@ -139,22 +146,36 @@ export default class extends Extension {
+ }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request("", {
++        const res = await this.fetch(mainUrl, {
+             method: "POST",
+-            data: {
+-                do: "search",
+-                subaction: "search",
+-                story: kw
++            // miru-core не мапить data: на тіло запиту — form-тіло POST
++            // передається через request_body
++            request_body: "do=search&subaction=search&story=" +
++                encodeURIComponent((kw || "").trim().replace(/\s+/g, " ")).replace(/%20/g, "+"),
++            headers: {
++                // без Content-Type PHP не розбере form-тіло ($_POST лишиться порожнім)
++                "Content-Type": "application/x-www-form-urlencoded"
+             }
+         });
+         const items = await this.querySelectorAll(res, ".th-item");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         for (const item of items) {
+             const html = item.content;
+-            const qualityText = await this.querySelector(html, ".fquality").text;
++
++            // await має стояти ПЕРЕД викликом, а .text читатись після резолву елемента:
++            // старе `await this.querySelector(x).text` = `await (promise.text)` → завжди undefined,
++            // через що фільтр «ВИДАЛЕНО» ніколи не спрацьовував, а назви були порожні.
++            const qualityEl = await this.querySelector(html, ".fquality");
++            const qualityText = qualityEl ? String((await qualityEl.text) ?? "") : "";
+             if (isCikavaDeleted(qualityText)) continue;
+-            const title = (await this.querySelector(html, ".th-title").text || "").trim();
++
++            const titleEl = await this.querySelector(html, ".th-title");
++            const title = titleEl ? String((await titleEl.text) ?? "").trim() : "";
++
+             const href = await this.getAttributeText(html, ".th-in", "href");
++            if (!href) continue;
++
+             const posterUrl = await this.getAttributeText(html, ".img-fit img", "src");
+             results.push({ title, url: fixUrl(href), cover: fixUrl(posterUrl) });
+         }
+@@ -168,9 +189,12 @@ export default class extends Extension {
+             throw new Error("No playable material found for: " + url);
+         }
+ 
+-        const title = (await this.querySelector(res, ".full h1").text || "").trim();
++        const titleEl = await this.querySelector(res, ".full h1");
++        const title = titleEl ? String((await titleEl.text) ?? "").trim() : "Без назви";
+         const poster = await this.getAttributeText(res, ".img-fit img", "src");
+-        const desc = (await this.querySelector(res, ".fdesc").text || "").trim();
++
++        const descEl = await this.querySelector(res, ".fdesc");
++        const desc = descEl ? String((await descEl.text) ?? "").trim() : "";
+         
+         const player1 = playerJson.Player1;
+         
+@@ -233,19 +257,19 @@ export default class extends Extension {
+             });
+         }
+ 
+-        let playReferer = "https://tortuga.wtf/";
++        let playReferer = mainUrl + "/";
+         try {
+             const playUrlObj = new URL(fixUrl(playerData.streamUrl));
+             playReferer = `${playUrlObj.protocol}//${playUrlObj.host}/`;
+         } catch (e) {
+-            console.log("Failed to parse Referer from stream URL, using default tortuga.wtf");
++            // Не вдалося визначити origin стріму — лишається реферер сайту
+         }
+ 
+         // Застосовуємо HTTP fallback також до фінального m3u8 URL
+         const safeStreamUrl = fixAshdiTls(fixUrl(playerData.streamUrl));
+ 
+         return {
+-            type: "hls",
++            type: safeStreamUrl.includes(".m3u8") ? "hls" : "mp4",
+             url: safeStreamUrl,
+             headers: {
+                 "Referer": playReferer,
+diff --git a/repo/doramy.world.js b/repo/doramy.world.js
+index 6d09c08..11e171c 100644
+--- a/repo/doramy.world.js
++++ b/repo/doramy.world.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         DoramyWorld
+-// @version      v0.0.2
++// @version      v0.0.3
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -11,6 +11,7 @@
+ // ==/MiruExtension==
+ 
+ const mainUrl = "https://doramy.world";
++const UA = "Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.215 Mobile Safari/537.36";
+ 
+ // Helper to bypass self-signed TLS issues on Ashdi by falling back to HTTP
+ function fixAshdiTls(url) {
+@@ -23,8 +24,14 @@ function fixAshdiTls(url) {
+ export default class extends Extension {
+     // Workaround for Miru concatenating base URL with absolute URLs
+     async fetch(url, options = {}) {
++        // Базові заголовки; специфічні від викликача мають пріоритет
++        options.headers = Object.assign({
++            "User-Agent": UA,
++            "Accept-Language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
++            "Referer": mainUrl + "/"
++        }, options.headers || {});
++
+         if (url.startsWith("http://") || url.startsWith("https://")) {
+-            options.headers = options.headers || {};
+             options.headers["Miru-Url"] = url;
+             return this.request("", options);
+         }
+@@ -40,8 +47,9 @@ export default class extends Extension {
+     }
+ 
+     async latest(page) {
+-        const res = await this.request(`/dorama/page/${page}/`);
++        const res = await this.fetch(`/dorama/page/${page}/`);
+         const items = await this.querySelectorAll(res, "article.type-dorama, article.type-film, article.type-show");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         for (const item of items) {
+             const html = item.content;
+@@ -60,8 +68,10 @@ export default class extends Extension {
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request(`/?s=${encodeURIComponent(kw)}`);
++        // TODO(page): видача пошуку без серверної пагінації підтверджена для 1 сторінки
++        const res = await this.fetch(`/?s=${encodeURIComponent((kw || "").trim())}`);
+         const items = await this.querySelectorAll(res, "article.type-dorama, article.type-film, article.type-show");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         for (const item of items) {
+             const html = item.content;
+@@ -169,19 +179,35 @@ export default class extends Extension {
+     }
+ 
+     async watch(url) {
+-        // Поки що повертає пряме посилання на сторінку плеєра Ashdi.
+-        // УВАГА: Цей метод потребує оновлення на наступному кроці!
+-        // Він має зробити запит до `url` (Ashdi), витягнути `.m3u8` через regex 
+-        // і повернути його, інакше відтворення не працюватиме.
++        // URL епізоду — це сторінка плеєра Ashdi (підготовлена в detail()).
++        // Тягнемо її та витягуємо пряму ссылку зі скриптів плеєра (file: "...").
+         if (!url) {
+-            throw new Error("No stream URL provided");
++            throw new Error("DORAMY_WATCH_FAIL: no stream URL provided");
+         }
+-        
++
++        const playerHtml = await this.fetch(url);
++
++        // Пріоритет .m3u8, fallback на будь-який file:
++        const m3u8Match = playerHtml.match(/file\s*:\s*["']([^"']+\.m3u8[^"']*)["']/);
++        const anyMatch = playerHtml.match(/file\s*:\s*["']([^"']+)["']/);
++        let streamUrl = (m3u8Match && m3u8Match[1]) || (anyMatch && anyMatch[1]) || null;
++
++        if (!streamUrl) {
++            throw new Error("DORAMY_WATCH_FAIL: no file: found on Ashdi player page " + String(url).slice(0, 80));
++        }
++
++        streamUrl = fixAshdiTls(streamUrl.trim());
++
++        // Referer по origin стрім-URL (зазвичай ashdi.vip)
++        const originMatch = /^(https?:\/\/[^/]+)/.exec(streamUrl);
++        const referer = originMatch ? originMatch[1] + "/" : "https://ashdi.vip/";
++
+         return {
+-            type: "hls",
+-            url: url,
++            type: streamUrl.includes(".m3u8") ? "hls" : "mp4",
++            url: streamUrl,
+             headers: {
+-                "Referer": "https://ashdi.vip/"
++                "Referer": referer,
++                "User-Agent": UA
+             }
+         };
+     }
+diff --git a/repo/eneyida.tv.js b/repo/eneyida.tv.js
+index a4f2739..c60cfed 100644
+--- a/repo/eneyida.tv.js
++++ b/repo/eneyida.tv.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         Eneyida
+-// @version      v0.0.1
++// @version      v0.0.2
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -50,6 +50,40 @@ function extractEneyidaFileValue(scriptHtml) {
+     return sb;
+ }
+ 
++// Пошук потоку конкретного епізоду у payload плеєра.
++// state.voice задає потрібну озвучку (voiceMap з detail()); якщо voice не задано
++// (легасі-стани) — береться перший збіг, як раніше.
++function findEpisodeStream(parsedJson, state) {
++    const isSeasonFirst = !!parsedJson[0]?.title?.toLowerCase().includes("сезон");
++
++    if (isSeasonFirst) {
++        // Формат А: Сезон -> Озвучка -> Серія
++        for (const season of parsedJson) {
++            if (!season || season.title !== state.seasonTitle || !season.folder) continue;
++            for (const dub of season.folder) {
++                if (!dub || !dub.folder) continue;
++                if (state.voice && dub.title !== state.voice) continue;
++                for (const ep of dub.folder) {
++                    if (ep && ep.title === state.episodeTitle && ep.file) return ep.file;
++                }
++            }
++        }
++    } else {
++        // Формат Б: Озвучка -> Сезон -> Серія
++        for (const dub of parsedJson) {
++            if (!dub || !dub.folder) continue;
++            if (state.voice && dub.title !== state.voice) continue;
++            for (const season of dub.folder) {
++                if (!season || season.title !== state.seasonTitle || !season.folder) continue;
++                for (const ep of season.folder) {
++                    if (ep && ep.title === state.episodeTitle && ep.file) return ep.file;
++                }
++            }
++        }
++    }
++    return "";
++}
++
+ export default class extends Extension {
+     async fetch(url, options = {}) {
+         options.headers = options.headers || {};
+@@ -67,8 +101,10 @@ export default class extends Extension {
+     async checkUpdate(url) { return ""; }
+ 
+     async latest(page) {
+-        const res = await this.request(`/films/page/${page}/`);
++        // R4: усі запити через fetch-обгортку (UA/Referer)
++        const res = await this.fetch(`/films/page/${page}/`);
+         const items = await this.querySelectorAll(res, "article.short");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -88,13 +124,13 @@ export default class extends Extension {
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request("", {
++        // R4: мержимо запит тільки через обгортку (UA/Referer)
++        const res = await this.fetch("", {
+             method: "POST",
+-            data: {
+-                do: "search",
+-                subaction: "search",
+-                story: kw.replace(" ", "+")
+-            },
++            // miru-core не мапить data: на тіло запиту — form-тіло POST передається
++            // через request_body; R5: всі пробіли -> "+" (не лише перший)
++            request_body: "do=search&subaction=search&story=" +
++                encodeURIComponent(kw.trim().replace(/\s+/g, " ")).replace(/%20/g, "+"),
+             headers: {
+                 "Miru-Url": mainUrl,
+                 "Content-Type": "application/x-www-form-urlencoded"
+@@ -102,6 +138,7 @@ export default class extends Extension {
+         });
+         
+         const items = await this.querySelectorAll(res, "article.short");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -127,19 +164,26 @@ export default class extends Extension {
+         try {
+             const titleEl = await this.querySelector(res, "div.full_header-title h1");
+             title = (await titleEl?.text || "").trim();
+-        } catch (e) { /* ignore */ }
++        } catch (e) {
++            // R13: критична стадія — без мовчазних ковтань
++            throw new Error(`ENEYIDA_DETAIL_FAIL (title): ${e}`);
++        }
+ 
+         let poster = "";
+         try {
+             poster = await this.getAttributeText(res, ".full_content-poster img", "src");
+             if (poster && !poster.startsWith("http")) poster = mainUrl + poster;
+-        } catch (e) { /* ignore */ }
++        } catch (e) {
++            throw new Error(`ENEYIDA_DETAIL_FAIL (poster): ${e}`);
++        }
+ 
+         let desc = "";
+         try {
+             const descEl = await this.querySelector(res, ".full_content-desc p");
+             desc = (await descEl?.text || "").trim();
+-        } catch (e) { /* ignore */ }
++        } catch (e) {
++            throw new Error(`ENEYIDA_DETAIL_FAIL (description): ${e}`);
++        }
+ 
+         const playerUrl = await this.getAttributeText(res, ".tabs_b.visible iframe", "src");
+         if (!playerUrl) throw new Error("No player iframe found");
+@@ -148,79 +192,123 @@ export default class extends Extension {
+         const playerHtml = await this.fetch(safePlayerUrl);
+         
+         const scripts = await this.querySelectorAll(playerHtml, "script");
++        if (!scripts || scripts.length === 0) {
++            throw new Error("ENEYIDA_DETAIL_FAIL: no scripts found in player page");
++        }
+         let scriptHtml = "";
+         for (const script of scripts) {
+-            scriptHtml += (await script.text || "") + "\n";
++            // R1: вміст <script> читається тільки через .content
++            scriptHtml += ((script && script.content) ? script.content : "") + "\n";
+         }
+         
+         const playerRawJson = extractEneyidaFileValue(scriptHtml);
++        if (!playerRawJson) {
++            throw new Error("ENEYIDA_DETAIL_FAIL: no 'file' payload found in player code");
++        }
++
+         let parsedJson = null;
+         try {
+             parsedJson = JSON.parse(playerRawJson);
+-        } catch (e) { /* ignore */ }
++        } catch (e) {
++            // Ще не фатально: payload може бути прямим посиланням — перевіриться нижче
++            parsedJson = null;
++        }
+ 
+         const episodeGroups = [];
+-        const episodes = [];
+         
+-        // Визначаємо тип контенту та будуємо епізоди
++        // Визначаємо тип контенту та будуємо епізоди.
++        // R7 (voiceMap-патерн uakino): кожна озвучка = окрема група епізодів,
++        // більше НЕ звалюємо всі серії всіх озвучок в один плоский список.
+         if (Array.isArray(parsedJson)) {
+-            const firstItem = parsedJson[0];
+-            const isSeasonFirst = firstItem?.title?.toLowerCase().includes("сезон");
++            const hasFolders = parsedJson.some(s => s && s.folder);
+             
+-            if (isSeasonFirst) {
+-                // Формат А: Сезон -> Озвучка -> Серія
+-                for (const season of parsedJson) {
+-                    const seasonTitle = season.title || "Сезон 1";
+-                    if (!season.folder) continue;
+-                    
+-                    for (const dub of season.folder) {
+-                        if (!dub.folder) continue;
+-                        for (const ep of dub.folder) {
+-                            if (ep.file) {
+-                                episodes.push({
+-                                    name: `${seasonTitle} - ${ep.title}`,
+-                                    url: JSON.stringify({
+-                                        seasonTitle: seasonTitle,
+-                                        episodeTitle: ep.title,
+-                                        playerUrl: safePlayerUrl
+-                                    })
++            if (hasFolders) {
++                // СЕРІАЛ
++                const voiceMap = {};
++                let voiceCounter = 0;
++                const addEpisode = (voiceTitle, epName, state) => {
++                    const key = voiceTitle || `Озвучка ${++voiceCounter}`;
++                    if (!voiceMap[key]) voiceMap[key] = [];
++                    voiceMap[key].push({ name: epName, url: JSON.stringify(state) });
++                };
++                
++                const isSeasonFirst = !!parsedJson[0]?.title?.toLowerCase().includes("сезон");
++                
++                if (isSeasonFirst) {
++                    // Формат А: Сезон -> Озвучка -> Серія
++                    for (const season of parsedJson) {
++                        if (!season || !season.folder || season.folder.length === 0) continue;
++                        const seasonTitle = season.title || "Сезон 1";
++                        for (const dub of season.folder) {
++                            if (!dub || !dub.folder || dub.folder.length === 0) continue;
++                            for (const ep of dub.folder) {
++                                if (!ep || !ep.file) continue;
++                                addEpisode(dub.title, `${seasonTitle} - ${ep.title}`, {
++                                    voice: dub.title || "",
++                                    seasonTitle,
++                                    episodeTitle: ep.title,
++                                    playerUrl: safePlayerUrl
+                                 });
+                             }
+                         }
+                     }
+-                }
+-            } else {
+-                // Формат Б: Озвучка -> Сезон -> Серія
+-                for (const dub of parsedJson) {
+-                    if (!dub.folder) continue;
+-                    for (const season of dub.folder) {
+-                        const seasonTitle = season.title || "Сезон 1";
+-                        if (!season.folder) continue;
+-                        for (const ep of season.folder) {
+-                            if (ep.file) {
+-                                episodes.push({
+-                                    name: `${seasonTitle} - ${ep.title}`,
+-                                    url: JSON.stringify({
+-                                        seasonTitle: seasonTitle,
+-                                        episodeTitle: ep.title,
+-                                        playerUrl: safePlayerUrl
+-                                    })
++                } else {
++                    // Формат Б: Озвучка -> Сезон -> Серія
++                    for (const dub of parsedJson) {
++                        if (!dub || !dub.folder || dub.folder.length === 0) continue;
++                        for (const season of dub.folder) {
++                            if (!season || !season.folder || season.folder.length === 0) continue;
++                            const seasonTitle = season.title || "Сезон 1";
++                            for (const ep of season.folder) {
++                                if (!ep || !ep.file) continue;
++                                addEpisode(dub.title, `${seasonTitle} - ${ep.title}`, {
++                                    voice: dub.title || "",
++                                    seasonTitle,
++                                    episodeTitle: ep.title,
++                                    playerUrl: safePlayerUrl
+                                 });
+                             }
+                         }
+                     }
+                 }
++                
++                const episodes = Object.entries(voiceMap).map(([voice, urls]) => ({
++                    title: voice,
++                    urls
++                }));
++                
++                if (episodes.length === 0) {
++                    // R13: серіальна структура є, але нічого не витягли — не мовчимо
++                    throw new Error("ENEYIDA_PARSE_FAIL: series structure detected but no episodes extracted");
++                }
++                episodeGroups.push(...episodes);
++            } else {
++                // ФІЛЬМ з payload-масивом озвучок [{file}, ...]: кожній озвучці — свій пункт,
++                // щоб watch не повертав мовчки довільний (перший) елемент.
++                parsedJson.forEach((dub, i) => {
++                    if (!dub || !dub.file) return;
++                    episodeGroups.push({
++                        title: dub.title || `Озвучка ${i + 1}`,
++                        urls: [{
++                            name: title || "Дивитися",
++                            url: JSON.stringify({ movieIndex: i, playerUrl: safePlayerUrl })
++                        }]
++                    });
++                });
++                
++                if (episodeGroups.length === 0) {
++                    throw new Error("ENEYIDA_PARSE_FAIL: movie payload has no playable dubs");
++                }
+             }
+-        }
+-        
+-        if (episodes.length === 0) {
+-            // Фільм: передаємо playerUrl напряму
++        } else if (/^https?:\/\//i.test(playerRawJson)) {
++            // Фільм: file — пряме посилання (не JSON)
+             episodeGroups.push({
+                 title: "Фільм",
+                 urls: [{ name: title || "Дивитися", url: JSON.stringify({ playerUrl: safePlayerUrl }) }]
+             });
+         } else {
+-            episodeGroups.push({ title: "Серії", urls: episodes });
++            // R13: провал парсингу більше НЕ мовчки перетворює серіал на «Фільм»
++            throw new Error("ENEYIDA_PARSE_FAIL: player payload is neither valid JSON nor a direct stream URL");
+         }
+ 
+         return {
+@@ -238,78 +326,70 @@ export default class extends Extension {
+         try {
+             data = JSON.parse(url);
+         } catch (e) {
+-            throw new Error("Invalid watch state");
++            throw new Error(`ENEYIDA_WATCH_FAIL: invalid watch state (${e.message})`);
+         }
+ 
+         const playerHtml = await this.fetch(data.playerUrl);
+         const scripts = await this.querySelectorAll(playerHtml, "script");
++        if (!scripts || scripts.length === 0) {
++            throw new Error("ENEYIDA_WATCH_FAIL: no scripts found in player page");
++        }
+         let scriptHtml = "";
+         for (const script of scripts) {
+-            scriptHtml += (await script.text || "") + "\n";
++            // R1: вміст <script> читається тільки через .content
++            scriptHtml += ((script && script.content) ? script.content : "") + "\n";
+         }
+         
+         const playerRawJson = extractEneyidaFileValue(scriptHtml);
++        if (!playerRawJson) {
++            throw new Error("ENEYIDA_WATCH_FAIL: no 'file' payload found in player code");
++        }
++
+         let parsedJson = null;
+         try {
+             parsedJson = JSON.parse(playerRawJson);
+-        } catch (e) { /* ignore */ }
++        } catch (e) {
++            // Пряме посилання обробляється у гілці фільму нижче
++            parsedJson = null;
++        }
+ 
+         let streamUrl = "";
+         
+         if (data.seasonTitle && data.episodeTitle) {
+-            // Серіал
+-            if (Array.isArray(parsedJson)) {
+-                const isSeasonFirst = parsedJson[0]?.title?.toLowerCase().includes("сезон");
+-                
+-                if (isSeasonFirst) {
+-                    for (const season of parsedJson) {
+-                        if (season.title === data.seasonTitle && season.folder) {
+-                            for (const dub of season.folder) {
+-                                if (dub.folder) {
+-                                    for (const ep of dub.folder) {
+-                                        if (ep.title === data.episodeTitle && ep.file) {
+-                                            streamUrl = ep.file;
+-                                            break;
+-                                        }
+-                                    }
+-                                }
+-                            }
+-                        }
+-                    }
+-                } else {
+-                    for (const dub of parsedJson) {
+-                        if (dub.folder) {
+-                            for (const season of dub.folder) {
+-                                if (season.title === data.seasonTitle && season.folder) {
+-                                    for (const ep of season.folder) {
+-                                        if (ep.title === data.episodeTitle && ep.file) {
+-                                            streamUrl = ep.file;
+-                                            break;
+-                                        }
+-                                    }
+-                                }
+-                            }
+-                        }
+-                    }
+-                }
++            // Серіал: шукаємо епізод У ПОТРІБНІЙ озвучці (state.voice), а не перший попередній збіг
++            if (!Array.isArray(parsedJson)) {
++                throw new Error("ENEYIDA_WATCH_FAIL: expected series payload (array)");
+             }
++            streamUrl = findEpisodeStream(parsedJson, data);
+         } else {
+             // Фільм
+             if (Array.isArray(parsedJson)) {
+-                // Масив озвучок
+-                streamUrl = parsedJson[0]?.file || "";
+-            } else {
++                // Масив озвучок: беремо індекс зі стану (детерміновано), fallback 0 — легасі-стани
++                const idx = Number.isInteger(data.movieIndex) &&
++                    data.movieIndex >= 0 &&
++                    data.movieIndex < parsedJson.length
++                    ? data.movieIndex
++                    : 0;
++                streamUrl = parsedJson[idx]?.file || "";
++            } else if (/^https?:\/\//i.test(playerRawJson)) {
+                 // Пряме посилання
+                 streamUrl = playerRawJson;
++            } else {
++                throw new Error("ENEYIDA_WATCH_FAIL: player payload is not valid JSON nor a direct URL");
+             }
+         }
+ 
+-        if (!streamUrl) throw new Error("Failed to extract stream URL");
++        if (!streamUrl) {
++            throw new Error("ENEYIDA_WATCH_FAIL: requested episode/voice not found in player payload");
++        }
+ 
+         streamUrl = fixTls(streamUrl);
+         
++        // R6: тип визначаємо за посиланням, не хардкодимо hls
++        const type = streamUrl.includes(".m3u8") ? "hls" : "mp4";
++        
+         return {
+-            type: "hls",
++            type,
+             url: streamUrl,
+             headers: {
+                 "Referer": "https://tortuga.wtf/",
+diff --git a/repo/hentaiukr.js b/repo/hentaiukr.js
+index 1c815f5..bfd2878 100644
+--- a/repo/hentaiukr.js
++++ b/repo/hentaiukr.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         HentaiUkr 18+
+-// @version      v0.0.1
++// @version      v0.0.2
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -11,7 +11,9 @@
+ // ==/MiruExtension==
+ 
+ const mainUrl = "https://hentaiukr.com";
+-const objectsUrl = `${mainUrl}/search/objects.json`;
++const UA = "Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.215 Mobile Safari/537.36";
++// Розмір сторінки каталогу: objects.json тягнеться ціликом і різається тут на сторінки
++const PAGE_SIZE = 24;
+ 
+ function fixUrl(url) {
+     if (!url) return "";
+@@ -24,7 +26,7 @@ function fixUrl(url) {
+ export default class extends Extension {
+     async fetch(url, options = {}) {
+         options.headers = options.headers || {};
+-        options.headers["User-Agent"] = "Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.215 Mobile Safari/537.36";
++        options.headers["User-Agent"] = UA;
+         
+         if (url.startsWith("http://") || url.startsWith("https://")) {
+             options.headers["Miru-Url"] = url;
+@@ -49,7 +51,8 @@ export default class extends Extension {
+         const data = await this.fetchObjectsJson();
+         if (!data || !Array.isArray(data.video)) return [];
+         
+-        return data.video.map(item => ({
++        const start = (Math.max(parseInt(page, 10) || 1, 1) - 1) * PAGE_SIZE;
++        return data.video.slice(start, start + PAGE_SIZE).map(item => ({
+             title: item.name || "Без назви",
+             url: fixUrl(item.url),
+             cover: fixUrl(item.thumb)
+@@ -60,14 +63,15 @@ export default class extends Extension {
+         const data = await this.fetchObjectsJson();
+         if (!data || !Array.isArray(data.video)) return [];
+         
+-        const lowerQuery = kw.toLowerCase();
+-        return data.video
+-            .filter(item => item.name && item.name.toLowerCase().includes(lowerQuery))
+-            .map(item => ({
+-                title: item.name,
+-                url: fixUrl(item.url),
+-                cover: fixUrl(item.thumb)
+-            }));
++        const lowerQuery = (kw || "").trim().toLowerCase();
++        const filtered = data.video.filter(item => item.name && item.name.toLowerCase().includes(lowerQuery));
++
++        const start = (Math.max(parseInt(page, 10) || 1, 1) - 1) * PAGE_SIZE;
++        return filtered.slice(start, start + PAGE_SIZE).map(item => ({
++            title: item.name,
++            url: fixUrl(item.url),
++            cover: fixUrl(item.thumb)
++        }));
+     }
+ 
+     async fetchPlurCfg(titleUrl) {
+@@ -144,10 +148,8 @@ export default class extends Extension {
+         if (episodes.length > 0) {
+             episodeGroups.push({ title: "Серії", urls: episodes });
+         } else {
+-            episodeGroups.push({
+-                title: "Дивитися",
+-                urls: [{ name: "Відтворити", url: `${detailUrl}?ep=0&src=0` }]
+-            });
++            // Чесно падаємо замість фейкової кнопки «Відтворити» з ?ep=0&src=0
++            throw new Error("hentaiukr_NO_SOURCES: no playable sources in plur.cfg.json");
+         }
+ 
+         return {
+@@ -158,6 +160,25 @@ export default class extends Extension {
+         };
+     }
+ 
++    // Спільний резолвер відносних шляхів відео/субтитрів від URL сторінки
++    resolveRelativeResourceUrl(rawUrl, baseUrl) {
++        if (!rawUrl) return "";
++        if (rawUrl.startsWith("http://") || rawUrl.startsWith("https://")) return rawUrl;
++        if (rawUrl.startsWith("//")) return "https:" + rawUrl;
++        if (rawUrl.startsWith("/")) return mainUrl + rawUrl;
++
++        let basePath = baseUrl || mainUrl + "/";
++        if (!basePath.endsWith("/")) {
++            const lastSlash = basePath.lastIndexOf("/");
++            if (lastSlash > 8) { // Зберігаємо https://
++                basePath = basePath.substring(0, lastSlash + 1);
++            } else {
++                basePath += "/";
++            }
++        }
++        return basePath + rawUrl;
++    }
++
+     async watch(url) {
+         if (!url) throw new Error("No stream URL provided");
+ 
+@@ -165,28 +186,16 @@ export default class extends Extension {
+         let epIndex = 0;
+         let srcIndex = -1;
+ 
+-        // Виявляємо, чи це старий JSON формат
+-        if (url.startsWith("{")) {
+-            try {
+-                const state = JSON.parse(url);
+-                detailUrl = state.detailUrl;
+-                epIndex = state.epIndex || 0;
+-                srcIndex = state.srcIndex || -1;
+-            } catch (e) {
+-                throw new Error("Invalid watch state JSON: " + e.message);
+-            }
+-        } else {
+-            // Парсимо query-параметри
+-            const queryIndex = url.indexOf("?");
+-            if (queryIndex !== -1) {
+-                detailUrl = url.substring(0, queryIndex);
+-                const queryStr = url.substring(queryIndex + 1);
+-                const params = queryStr.split("&");
+-                for (let i = 0; i < params.length; i++) {
+-                    const pair = params[i].split("=");
+-                    if (pair[0] === "ep") epIndex = parseInt(pair[1], 10) || 0;
+-                    else if (pair[0] === "src") srcIndex = parseInt(pair[1], 10);
+-                }
++        // Парсимо query-параметри (легасі JSON-state формат видалено — detail його більше не створює)
++        const queryIndex = url.indexOf("?");
++        if (queryIndex !== -1) {
++            detailUrl = url.substring(0, queryIndex);
++            const queryStr = url.substring(queryIndex + 1);
++            const params = queryStr.split("&");
++            for (let i = 0; i < params.length; i++) {
++                const pair = params[i].split("=");
++                if (pair[0] === "ep") epIndex = parseInt(pair[1], 10) || 0;
++                else if (pair[0] === "src") srcIndex = parseInt(pair[1], 10);
+             }
+         }
+ 
+@@ -215,42 +224,17 @@ export default class extends Extension {
+             throw new Error("Empty source");
+         }
+ 
+-        // Правильно обробляємо відносні шляхи відео
+-        let videoUrl = source.src;
+-        if (videoUrl.startsWith("http://") || videoUrl.startsWith("https://")) {
+-            // Вже абсолютний URL
+-        } else if (videoUrl.startsWith("//")) {
+-            videoUrl = "https:" + videoUrl;
+-        } else if (videoUrl.startsWith("/")) {
+-            // Відносний від кореня домену
+-            videoUrl = mainUrl + videoUrl;
+-                } else {
+-            // Відносний від шляху сторінки (напр. "1.mp4" -> "https://hentaiukr.com/video/123/1.mp4")
+-            // Видаляємо ім'я файлу з URL, щоб отримати базовий шлях
+-            let basePath = safeDetailUrl;
+-            // Якщо URL закінчується на /, він вже є базовим шляхом
+-            if (!basePath.endsWith("/")) {
+-                // Видаляємо останній сегмент (напр. index.html)
+-                const lastSlash = basePath.lastIndexOf("/");
+-                if (lastSlash > 8) { // Зберігаємо https://
+-                    basePath = basePath.substring(0, lastSlash + 1);
+-                } else {
+-                    basePath += "/";
+-                }
+-            }
+-            videoUrl = basePath + videoUrl;
+-        }
++        // Правильно обробляємо відносні шляхи відео (спільний резолвер з субтитрами)
++        const videoUrl = this.resolveRelativeResourceUrl(source.src, safeDetailUrl);
+ 
++        // Контракт Miru: лише 'hls'|'mp4' (R6). webm play through mp4 pipeline in miru
+         let type = "mp4";
+         if (videoUrl.includes(".m3u8")) {
+             type = "hls";
+-        } else if (videoUrl.includes(".webm")) {
+-            type = "webm";
+         } else if (source.type) {
+             const mime = String(source.type).toLowerCase();
+-            if (mime.includes("mp4")) type = "mp4";
+-            else if (mime.includes("hls") || mime.includes("mpegurl")) type = "hls";
+-            else if (mime.includes("webm")) type = "webm";
++            if (mime.includes("hls") || mime.includes("mpegurl")) type = "hls";
++            // webm => mp4 (fallback на дефолт)
+         }
+ 
+         const subtitles = [];
+@@ -258,29 +242,9 @@ export default class extends Extension {
+             for (let i = 0; i < cfg.tracks.length; i++) {
+                 const track = cfg.tracks[i];
+                 if (track && track.src) {
+-                    let subUrl = track.src;
+-                    // Також обробляємо відносні шляхи для субтитрів
+-                    if (!subUrl.startsWith("http") && !subUrl.startsWith("//")) {
+-                         if (subUrl.startsWith("/")) {
+-                            subUrl = mainUrl + subUrl;
+-                        } else {
+-                            let basePath = safeDetailUrl;
+-                            if (!basePath.endsWith("/")) {
+-                                const lastSlash = basePath.lastIndexOf("/");
+-                                if (lastSlash > 8) {
+-                                    basePath = basePath.substring(0, lastSlash + 1);
+-                                } else {
+-                                    basePath += "/";
+-                                }
+-                            }
+-                            subUrl = basePath + subUrl;
+-                        }
+-                    } else if (subUrl.startsWith("//")) {
+-                        subUrl = "https:" + subUrl;
+-                    }
+                     subtitles.push({
+                         title: track.label || `Субтитри ${i + 1}`,
+-                        url: subUrl
++                        url: this.resolveRelativeResourceUrl(track.src, safeDetailUrl)
+                     });
+                 }
+             }
+@@ -291,7 +255,7 @@ export default class extends Extension {
+             url: videoUrl,
+             headers: {
+                 "Referer": safeDetailUrl,
+-                "User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
++                "User-Agent": UA
+             }
+         };
+ 
+diff --git a/repo/index.json b/repo/index.json
+index 7a1d11a..18eee6b 100644
+--- a/repo/index.json
++++ b/repo/index.json
+@@ -1,50 +1,194 @@
+ [
+     {
+-        "author":  "CakesTwix",
+-        "icon":  "https://www.google.com/s2/favicons?domain=cikava-ideya.top\u0026sz=256",
+-        "lang":  "uk",
+-        "license":  "GPL3",
+-        "name":  "Р¦С–РєР°РІР° Р†РґРµСЏ",
+-        "package":  "cikava-ideya",
+-        "type":  "bangumi",
+-        "url":  "cikava-ideya.js",
+-        "version":  "v0.0.4",
+-        "webSite":  "https://cikava-ideya.top"
+-    },
+-    {
+-        "author":  "CakesTwix",
+-        "icon":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZAw8JCRhrw1pDMb5_nYDPYQOPVC4T1JDH3PpLB5Bf35ts32ohXNFsRic\u0026s=10",
+-        "lang":  "uk",
+-        "license":  "MIT",
+-        "name":  "DoramyWorld",
+-        "package":  "doramy.world",
+-        "type":  "bangumi",
+-        "url":  "doramy.world.js",
+-        "version":  "v0.0.2",
+-        "webSite":  "https://doramy.world"
+-    },
+-    {
+-        "author":  "ported",
+-        "icon":  "https://www.google.com/s2/favicons?domain=uakino.best\u0026sz=256",
+-        "lang":  "uk",
+-        "license":  "MIT",
+-        "name":  "Uakino",
+-        "package":  "uakino",
+-        "type":  "bangumi",
+-        "url":  "uakino.js",
+-        "version":  "v0.0.2",
+-        "webSite":  "https://uakino.best"
+-    },
+-    {
+-        "author":  "CakesTwix",
+-        "icon":  "https://www.google.com/s2/favicons?domain=unimay.media\u0026sz=256",
+-        "lang":  "uk",
+-        "license":  "MIT",
+-        "name":  "Unimay",
+-        "package":  "unimay.media",
+-        "type":  "bangumi",
+-        "url":  "unimay.media.js",
+-        "version":  "v0.0.2",
+-        "webSite":  "https://api.unimay.media"
++        "author": "CakesTwix",
++        "icon": "https://animeon.club/assets/images/short-logo.png",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "AnimeON",
++        "package": "animeon.club",
++        "type": "bangumi",
++        "url": "animeon.club.js",
++        "version": "v0.0.8",
++        "webSite": "https://animeon.club"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=animeua.club&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "AnimeUA",
++        "package": "animeua",
++        "type": "bangumi",
++        "url": "animeua.js",
++        "version": "v0.0.9",
++        "webSite": "https://animeua.club"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=anitube.in.ua&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Anitubeinua",
++        "package": "anitube.in.ua",
++        "type": "bangumi",
++        "url": "anitube.in.ua.js",
++        "version": "v0.0.2",
++        "webSite": "https://anitube.in.ua"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=bambooua.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "BambooUA",
++        "package": "bambooua",
++        "type": "bangumi",
++        "url": "bambooua.js",
++        "version": "v0.0.3",
++        "webSite": "https://bambooua.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=cikava-ideya.top&sz=256",
++        "lang": "uk",
++        "license": "GPL3",
++        "name": "Цікава Ідея",
++        "package": "cikava-ideya",
++        "type": "bangumi",
++        "url": "cikava-ideya.js",
++        "version": "v0.0.5",
++        "webSite": "https://cikava-ideya.top"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZAw8JCRhrw1pDMb5_nYDPYQOPVC4T1JDH3PpLB5Bf35ts32ohXNFsRic&s=10",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "DoramyWorld",
++        "package": "doramy.world",
++        "type": "bangumi",
++        "url": "doramy.world.js",
++        "version": "v0.0.3",
++        "webSite": "https://doramy.world"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=eneyida.tv&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Eneyida",
++        "package": "eneyida.tv",
++        "type": "bangumi",
++        "url": "eneyida.tv.js",
++        "version": "v0.0.2",
++        "webSite": "https://eneyida.tv"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=hentaiukr.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "HentaiUkr 18+",
++        "package": "hentaiukr",
++        "type": "bangumi",
++        "url": "hentaiukr.js",
++        "version": "v0.0.2",
++        "webSite": "https://hentaiukr.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=kinostrain.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Kinostrain",
++        "package": "kinostrain",
++        "type": "bangumi",
++        "url": "kinostrain.js",
++        "version": "v0.0.10",
++        "webSite": "https://kinostrain.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=klonua.com&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "KlonTV",
++        "package": "klontv",
++        "type": "bangumi",
++        "url": "klontv.js",
++        "version": "v0.0.2",
++        "webSite": "https://klonua.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=serialno.tv&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Serialno",
++        "package": "serialno.tv",
++        "type": "bangumi",
++        "url": "serialno.tv.js",
++        "version": "v0.0.13",
++        "webSite": "https://serialno.tv"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=simpsonsua.tv&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "SimpsonsUA.tv",
++        "package": "simpsonsua.tv",
++        "type": "bangumi",
++        "url": "simpsonsua.tv.js",
++        "version": "v0.0.2",
++        "webSite": "https://simpsonsua.tv"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=uafix.net&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "UAFlix",
++        "package": "uaflix",
++        "type": "bangumi",
++        "url": "uaflix.js",
++        "version": "v0.0.4",
++        "webSite": "https://uafix.net"
++    },
++    {
++        "author": "ported",
++        "icon": "https://www.google.com/s2/favicons?domain=uakino.best&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Uakino",
++        "package": "uakino",
++        "type": "bangumi",
++        "url": "uakino.js",
++        "version": "v0.0.2",
++        "webSite": "https://uakino.best"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=uaserials.pro&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "UASerialsPro",
++        "package": "uaserials.pro",
++        "type": "bangumi",
++        "url": "uaserials.pro.js",
++        "version": "v0.0.2",
++        "webSite": "https://uaserials.com"
++    },
++    {
++        "author": "CakesTwix",
++        "icon": "https://www.google.com/s2/favicons?domain=unimay.media&sz=256",
++        "lang": "uk",
++        "license": "MIT",
++        "name": "Unimay",
++        "package": "unimay.media",
++        "type": "bangumi",
++        "url": "unimay.media.js",
++        "version": "v0.0.3",
++        "webSite": "https://api.unimay.media"
+     }
+-]
+\ No newline at end of file
++]
+diff --git a/repo/kinostrain.js b/repo/kinostrain.js
+index 3f91454..57b03d1 100644
+--- a/repo/kinostrain.js
++++ b/repo/kinostrain.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         Kinostrain
+-// @version      v0.0.9
++// @version      v0.0.10
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -12,6 +12,17 @@
+ 
+ const mainUrl = "https://kinostrain.com";
+ const apiUrl = "https://api.kinostrain.com";
++const UA = "Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.215 Mobile Safari/537.36";
++
++function siteHeaders() {
++    // R4: базові заголовки сайту — патерн siteHeaders() з uakino
++    return {
++        "User-Agent": UA,
++        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
++        "Accept-Language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
++        "Referer": mainUrl + "/"
++    };
++}
+ 
+ function fixUrl(url) {
+     if (!url) return "";
+@@ -71,7 +82,8 @@ class NuxtResolver {
+ 
+ export default class extends Extension {
+     async fetch(url, options = {}) {
+-        options.headers = options.headers || {};
++        // R4: дефолтні UA/Accept-Language/Referer; заголовки, передані вручну, мають пріоритет
++        options.headers = Object.assign(siteHeaders(), options.headers || {});
+         if (url.startsWith("http://") || url.startsWith("https://")) {
+             options.headers["Miru-Url"] = url;
+             return this.request("", options);
+@@ -83,8 +95,10 @@ export default class extends Extension {
+     async checkUpdate(url) { return ""; }
+ 
+     async latest(page) {
+-        const res = await this.request(`/movies?page=${page}`);
++        // R4: через обгортку з UA/Referer (було «голе» request)
++        const res = await this.fetch(`/movies?page=${page}`);
+         const items = await this.querySelectorAll(res, "div.grid > article");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -116,14 +130,29 @@ export default class extends Extension {
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.fetch(`/api/search?q=${encodeURIComponent(kw)}&limit=10`);
+-        const data = typeof res === 'string' ? JSON.parse(res) : res;
++        // TODO(page): API пошуку приймає лише limit і не має офсетного параметра —
++        // результати завжди з першої видачі; параметр page поки ІГНОРУЄТЬСЯ,
++        // пагінацію додати коли/якщо API її підтриматиме.
++        let res;
++        try {
++            res = await this.fetch(`/api/search?q=${encodeURIComponent(kw)}&limit=10`);
++        } catch (e) {
++            throw new Error(`KINOSTRAIN_SEARCH_FAIL: search request failed: ${e}`);
++        }
++        
++        let data;
++        try {
++            data = typeof res === 'string' ? JSON.parse(res) : res;
++        } catch (e) {
++            throw new Error(`KINOSTRAIN_SEARCH_FAIL: invalid search response JSON: ${e.message}`);
++        }
+         
+-        if (!data || !data.data) return [];
++        if (!data || !data.data || data.data.length === 0) return [];
+         
+         const results = [];
+         for (const item of data.data) {
+-            const title = item.name;
++            if (!item) continue;
++            const title = item.name || "Без назви";
+             let url = "";
+             if (item.type === "movie") {
+                 url = `${mainUrl}/movie-${item.slug}`;
+@@ -187,7 +216,8 @@ export default class extends Extension {
+         const seasonsArray = resolver.resolveArray(content, "seasons");
+         if (!seasonsArray) return [];
+ 
+-        const allEpisodes = [];
++        // Озвучка -> [{name,url}] (voiceMap-подібна структура; порядок ключів стабільний)
++        const voiceEpisodes = {};
+ 
+         for (let i = 0; i < seasonsArray.length; i++) {
+             const seasonIdx = seasonsArray[i];
+@@ -211,66 +241,123 @@ export default class extends Extension {
+                     const epName = resolver.resolveString(epObj, "name") || `Серія ${epNumber}`;
+ 
+                     const epPlayerData = resolver.resolveObject(playerData, epNumber.toString());
+-                    if (epPlayerData) {
+-                        const episodeSources = [];
+-                        for (const pKey in epPlayerData) {
+-                            const sourcesArray = resolver.resolveArray(epPlayerData, pKey);
+-                            if (sourcesArray) {
+-                                for (let k = 0; k < sourcesArray.length; k++) {
+-                                    const srcIdx = sourcesArray[k];
+-                                    const srcObj = resolver.getObject(srcIdx);
+-                                    if (srcObj) {
+-                                        const name = resolver.resolveString(srcObj, "name") || pKey;
+-                                        const link = resolver.resolveString(srcObj, "link");
+-                                        if (link) episodeSources.push({ name, link });
+-                                    }
+-                                }
+-                            }
+-                        }
+-
+-                        if (episodeSources.length > 0) {
+-                            allEpisodes.push({
+-                                name: `${epName} (Сезон ${seasonNumber})`,
+-                                url: JSON.stringify(episodeSources)
+-                            });
+-                        }
+-                    }
++                    if (!epPlayerData) continue;
++                    
++                    // Витяг/групування джерел — спільний хелпер (було ×2 дубльовані копії)
++                    this.appendEpisodeSources(
++                        resolver,
++                        epPlayerData,
++                        `${epName} (Сезон ${seasonNumber})`,
++                        voiceEpisodes
++                    );
+                 }
+             } else {
+                 // ЛОГІКА ДЛЯ ФІЛЬМІВ (або серіалів без масиву episodes)
+                 // У Kotlin: val epPlayerData = resolver.resolveObject(playerData, "1") ?: playerData
+                 const epPlayerData = resolver.resolveObject(playerData, "1") || playerData;
+-                const episodeSources = [];
+-                
+-                for (const pKey in epPlayerData) {
+-                    const sourcesArray = resolver.resolveArray(epPlayerData, pKey);
+-                    if (sourcesArray) {
+-                        for (let k = 0; k < sourcesArray.length; k++) {
+-                            const srcIdx = sourcesArray[k];
+-                            const srcObj = resolver.getObject(srcIdx);
+-                            if (srcObj) {
+-                                const name = resolver.resolveString(srcObj, "name") || pKey;
+-                                const link = resolver.resolveString(srcObj, "link");
+-                                if (link) episodeSources.push({ name, link });
+-                            }
+-                        }
+-                    }
+-                }
+                 
+-                if (episodeSources.length > 0) {
+-                    allEpisodes.push({
+-                        name: `Фільм (Сезон ${seasonNumber})`,
+-                        url: JSON.stringify(episodeSources)
+-                    });
++                this.appendEpisodeSources(
++                    resolver,
++                    epPlayerData,
++                    `Фільм (Сезон ${seasonNumber})`,
++                    voiceEpisodes
++                );
++            }
++        }
++
++        return voiceEpisodes;
++    }
++
++    // Витяг груп джерел із контейнера playerData: {"<voiceKey>": [idx...], ...},
++    // де кожен елемент масиву — об'єкт виду {name, link}.
++    extractSourceGroups(resolver, containerObj) {
++        const groups = [];
++        if (!containerObj || typeof containerObj !== "object") return groups;
++
++        for (const pKey in containerObj) {
++            const sourcesArray = resolver.resolveArray(containerObj, pKey);
++            if (!sourcesArray) continue;
++
++            const sources = [];
++            let label = ""; // людська назва озвучки, якщо вона взагалі є в даних
++
++            for (let k = 0; k < sourcesArray.length; k++) {
++                const srcIdx = sourcesArray[k];
++                const srcObj = resolver.getObject(srcIdx);
++                if (!srcObj) continue;
++
++                const link = resolver.resolveString(srcObj, "link");
++                if (!link) continue;
++
++                const name = resolver.resolveString(srcObj, "name") || link;
++
++                if (!label) {
++                    // Шукаємо саме ГОЛОСОВИЙ ідентифікатор; поле name — це часто
++                    // якість/провайдер, тому для назви озвучки НЕ використовується
++                    label =
++                        resolver.resolveString(srcObj, "voice") ||
++                        resolver.resolveString(srcObj, "voiceName") ||
++                        resolver.resolveString(srcObj, "translation") ||
++                        resolver.resolveString(srcObj, "translator") ||
++                        "";
+                 }
++
++                sources.push({ name, link });
+             }
++
++            if (sources.length > 0) groups.push({ key: String(pKey), label, sources });
++        }
++
++        return groups;
++    }
++
++    // Додає джерела одного епізоду у voiceMap.
++    // - Якщо в даних є голосові поля (voice/voiceName/translation/translator) — кожна
++    //   група стає окремою озвучкою (R7).
++    // - ЯКЩО голосів у даних немає — детерміновано лишаємо ПЕРШУ групу джерел
++    //   (порядок ключів __NUXT_DATA__ стабільний для одного payload). Це свідоме
++    //   обмеження: вибрати іншу озвучку неможливо, бо дані не містять назв голосів;
++    //   раніше тут натомість мовчки повертався довільний елемент у watch().
++    appendEpisodeSources(resolver, containerObj, epName, voiceEpisodes) {
++        const groups = this.extractSourceGroups(resolver, containerObj);
++        if (groups.length === 0) return;
++
++        const hasVoiceInfo = groups.some(g => g.label);
++
++        if (hasVoiceInfo) {
++            groups.forEach((g, gi) => {
++                const voice = g.label || `Озвучка ${gi + 1}`;
++                if (!voiceEpisodes[voice]) voiceEpisodes[voice] = [];
++                voiceEpisodes[voice].push({
++                    name: epName,
++                    url: JSON.stringify(g.sources)
++                });
++            });
++        } else {
++            const g = groups[0];
++            const voice = "Основна озвучка";
++            if (!voiceEpisodes[voice]) voiceEpisodes[voice] = [];
++            voiceEpisodes[voice].push({
++                name: epName,
++                url: JSON.stringify(g.sources)
++            });
+         }
++    }
+ 
+-        return allEpisodes;
++    mergeVoiceEpisodes(into, from) {
++        for (const voice in from) {
++            if (!into[voice]) into[voice] = [];
++            into[voice].push(...from[voice]);
++        }
+     }
+ 
+     async detail(url) {
+-        const res = await this.fetch(url);
++        let res;
++        try {
++            res = await this.fetch(url);
++        } catch (e) {
++            throw new Error(`KINOSTRAIN_DETAIL_FAIL: failed to load ${url}: ${e}`);
++        }
+         
+         let jsonLd = {};
+         const jsonLdMatch = res.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+@@ -286,31 +373,54 @@ export default class extends Extension {
+         
+         // Спочатку шукаємо посилання на сезони
+         const seasonLinks = await this.querySelectorAll(res, "div.seasons-grid a.season-item");
+-        let episodes = [];
++        const voiceEpisodes = {}; // озвучка -> [{name,url}]
+         
+-        if (seasonLinks.length > 0) {
++        if (seasonLinks && seasonLinks.length > 0) {
++            let loadedPages = 0;
++            let lastError = null;
++            
++            // Сторінки сезонів фетчимо послідовно (менший ризик рейтинг-ліміту),
++            // але збій ОДНОГО сезону не мусить убивати всю карточку:
++            // дозволені часткові результати — кидаємо помилку лише якщо не завантажилось НІЧОГО.
+             for (const link of seasonLinks) {
+                 const linkHtml = typeof link === 'string' ? link : (link.content || "");
+                 const seasonUrl = fixUrl(await this.getAttributeText(linkHtml, "a", "href"));
+                 if (!seasonUrl) continue;
+                 
+-                const seasonRes = await this.fetch(seasonUrl);
+-                episodes.push(...await this.parseNuxtEpisodes(seasonRes));
++                try {
++                    const seasonRes = await this.fetch(seasonUrl);
++                    this.mergeVoiceEpisodes(voiceEpisodes, await this.parseNuxtEpisodes(seasonRes));
++                    loadedPages++;
++                } catch (e) {
++                    lastError = e;
++                }
++            }
++            
++            if (loadedPages === 0) {
++                throw new Error(
++                    `KINOSTRAIN_DETAIL_FAIL: all season pages failed${lastError ? `: ${lastError}` : ""}`
++                );
+             }
+         } else {
+             // Якщо це фільм або 1 сезон
+-            episodes = await this.parseNuxtEpisodes(res);
++            this.mergeVoiceEpisodes(voiceEpisodes, await this.parseNuxtEpisodes(res));
+         }
+         
+-        if (episodes.length === 0) {
++        if (Object.keys(voiceEpisodes).length === 0) {
+             throw new Error("No episodes found");
+         }
+ 
++        // Кожна озвучка = окрема вкладка епізодів (voiceMap-патерн uakino)
++        const episodes = Object.entries(voiceEpisodes).map(([voice, urls]) => ({
++            title: voice,
++            urls
++        }));
++
+         return {
+             title,
+             cover: poster,
+             desc,
+-            episodes: [{ title: "Серії", urls: episodes }]
++            episodes
+         };
+     }
+ 
+@@ -321,10 +431,16 @@ export default class extends Extension {
+         try {
+             sources = JSON.parse(url);
+         } catch (e) {
+-            throw new Error("Invalid sources format");
++            throw new Error(`KINOSTRAIN_WATCH_FAIL: invalid sources state (${e.message})`);
++        }
++
++        if (!Array.isArray(sources) || sources.length === 0) {
++            throw new Error("KINOSTRAIN_WATCH_FAIL: no sources in state");
+         }
+ 
+         for (const source of sources) {
++            if (!source || !source.link) continue;
++            
+             if (source.link.includes("ashdi.vip")) {
+                 const safeUrl = fixAshdiTls(source.link);
+                 const playerHtml = await this.fetch(safeUrl);
+@@ -335,23 +451,23 @@ export default class extends Extension {
+                     return {
+                         type: "hls",
+                         url: streamUrl,
+-                        headers: { "Referer": safeUrl }
++                        headers: { "Referer": safeUrl, "User-Agent": UA }
+                     };
+                 }
+             } else if (source.link.includes(".m3u8")) {
+                 return {
+                     type: "hls",
+                     url: source.link,
+-                    headers: { "Referer": mainUrl }
++                    headers: { "Referer": mainUrl, "User-Agent": UA }
+                 };
+-            } else if (source.link) {
++            } else {
+                 return {
+                     type: "mp4",
+                     url: source.link,
+-                    headers: { "Referer": mainUrl }
++                    headers: { "Referer": mainUrl, "User-Agent": UA }
+                 };
+             }
+         }
+-        throw new Error("Failed to extract stream URL");
++        throw new Error("KINOSTRAIN_WATCH_FAIL: none of the sources produced a playable stream");
+     }
+ }
+\ No newline at end of file
+diff --git a/repo/klontv.js b/repo/klontv.js
+index 23a876b..96b461b 100644
+--- a/repo/klontv.js
++++ b/repo/klontv.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         KlonTV
+-// @version      v0.0.1
++// @version      v0.0.2
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -28,6 +28,20 @@ function fixTls(url) {
+     return url;
+ }
+ 
++// Subtitle format: "[Назва]URL" — заміна Kotlin substringAfter*/Before (в JS їх немає)
++function parseSubtitle(raw) {
++    if (!raw) return [];
++    const m = /\[([^\]]*)\](.+)$/.exec(raw);
++    if (!m || !m[2]) return [];
++    return [{ title: m[1] || "Субтитри", url: m[2] }];
++}
++
++// Referer по origin стрім-URL (не хардкод tortuga — плеєри бувають і на ashdi)
++function refererFor(streamUrl) {
++    const m = /^(https?:\/\/[^/]+)/.exec(streamUrl || "");
++    return m ? m[1] + "/" : mainUrl + "/";
++}
++
+ export default class extends Extension {
+     async fetch(url, options = {}) {
+         options.headers = options.headers || {};
+@@ -45,8 +59,9 @@ export default class extends Extension {
+     async checkUpdate(url) { return ""; }
+ 
+     async latest(page) {
+-        const res = await this.request(`/filmy/page/${page}/`);
++        const res = await this.fetch(`/filmy/page/${page}/`);
+         const items = await this.querySelectorAll(res, ".short-news__slide-item");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -66,20 +81,20 @@ export default class extends Extension {
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request("", {
++        // TODO(page): пагінація видачі пошуку на klonua.com не підтверджена
++        const res = await this.fetch(mainUrl, {
+             method: "POST",
+-            data: {
+-                do: "search",
+-                subaction: "search",
+-                story: kw.replace(" ", "+")
+-            },
++            // miru-core не мапить data: на тіло запиту — form-тіло POST
++            // передається через request_body
++            request_body: "do=search&subaction=search&story=" +
++                encodeURIComponent((kw || "").trim().replace(/\s+/g, " ")).replace(/%20/g, "+"),
+             headers: {
+-                "Miru-Url": mainUrl,
+                 "Content-Type": "application/x-www-form-urlencoded"
+             }
+         });
+         
+         const items = await this.querySelectorAll(res, ".short-news__slide-item");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -146,16 +161,26 @@ export default class extends Extension {
+                     throw new Error("Failed to parse playlist JSON");
+                 }
+ 
++                if (!Array.isArray(playlist)) {
++                    throw new Error("KLONTV_PARSE_FAIL: playlist is not an array");
++                }
++
+                 const dubGroups = {};
+                 for (const dub of playlist) {
+-                    const dubName = dub.title;
++                    if (!Array.isArray(dub.folder) || dub.folder.length === 0) continue;
++                    const dubName = dub.title || "Основна озвучка";
+                     if (!dubGroups[dubName]) dubGroups[dubName] = [];
+-                    
++
+                     for (const season of dub.folder) {
++                        if (!Array.isArray(season.folder)) continue;
++                        // "|" у назвах сезону/серії ламає парсинг стану в watch() — санітизуємо
++                        const safeSeasonTitle = String(season.title ?? "").replace(/\|/g, "/");
++
+                         for (const ep of season.folder) {
++                            const safeEpTitle = String(ep?.title ?? "").replace(/\|/g, "/");
+                             dubGroups[dubName].push({
+                                 name: `${season.title} - ${ep.title}`,
+-                                url: `series:${playerUrl}|${season.title}|${ep.title}`
++                                url: `series:${playerUrl}|${safeSeasonTitle}|${safeEpTitle}`
+                             });
+                         }
+                     }
+@@ -188,7 +213,6 @@ export default class extends Extension {
+     async watch(url) {
+         let streamUrl = "";
+         let subtitles = [];
+-        let referer = "https://tortuga.wtf/";
+ 
+         if (url.startsWith("movie:")) {
+             const playerUrl = fixTls(url.replace("movie:", ""));
+@@ -200,12 +224,9 @@ export default class extends Extension {
+             }
+             
+             // Субтитри для фільмів
+-            const subMatch = playerHtml.match(/subtitle\s*:\s*'([^']+)'/);
++            const subMatch = playerHtml.match(/subtitle\s*:\s*['"]([^'"]+)['"]/);
+             if (subMatch && subMatch[1]) {
+-                const subRaw = subMatch[1];
+-                const subName = subRaw.substringAfterLast("[").substringBefore("]");
+-                const subUrl = subRaw.substringAfter("]");
+-                if (subUrl) subtitles.push({ title: subName, url: subUrl });
++                subtitles = parseSubtitle(subMatch[1]);
+             }
+         } else if (url.startsWith("series:")) {
+             const parts = url.split("|");
+@@ -231,9 +252,7 @@ export default class extends Extension {
+                                 if (ep.title === episodeTitle) {
+                                     streamUrl = fixTls(ep.file);
+                                     if (ep.subtitle) {
+-                                        const subName = ep.subtitle.substringAfterLast("[").substringBefore("]");
+-                                        const subUrl = ep.subtitle.substringAfter("]");
+-                                        if (subUrl) subtitles.push({ title: subName, url: subUrl });
++                                        subtitles = parseSubtitle(ep.subtitle);
+                                     }
+                                     break;
+                                 }
+@@ -244,7 +263,9 @@ export default class extends Extension {
+             }
+         }
+ 
+-        if (!streamUrl) throw new Error("Failed to extract stream URL");
++        if (!streamUrl) {
++            throw new Error("KLONTV_WATCH_FAIL: could not extract stream URL for " + url.slice(0, 80));
++        }
+ 
+         const isHls = streamUrl.includes(".m3u8");
+         
+@@ -252,7 +273,7 @@ export default class extends Extension {
+             type: isHls ? "hls" : "mp4",
+             url: streamUrl,
+             headers: {
+-                "Referer": referer,
++                "Referer": refererFor(streamUrl),
+                 "User-Agent": UA
+             },
+             subtitles: subtitles
+diff --git a/repo/serialno.tv.js b/repo/serialno.tv.js
+index 8f67fdd..a34c98c 100644
+--- a/repo/serialno.tv.js
++++ b/repo/serialno.tv.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         Serialno
+-// @version      v0.0.12
++// @version      v0.0.13
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -28,6 +28,20 @@ function fixTls(url) {
+     return url;
+ }
+ 
++// Субтитри формату "[Назва]URL" — заміна неіснуючих у goja Kotlin substringAfter*/Before
++function parseSubtitle(raw) {
++    if (!raw) return [];
++    const m = /\[([^\]]*)\](.+)$/.exec(String(raw));
++    if (!m || !m[2]) return [];
++    return [{ title: m[1] || "Субтитри", url: m[2] }];
++}
++
++// Referer по origin стрім-URL замість хардкоду tortuga (плеєри також на ashdi тощо)
++function refererFor(streamUrl) {
++    const m = /^(https?:\/\/[^/]+)/.exec(streamUrl || "");
++    return m ? m[1] + "/" : mainUrl + "/";
++}
++
+ // --- Crypto Helpers (Without CryptoJS or atob) ---
+ 
+ function bytesToUtf8(bytes) {
+@@ -201,8 +215,9 @@ export default class extends Extension {
+     async checkUpdate(url) { return ""; }
+ 
+     async latest(page) {
+-        const res = await this.request(`/series/page/${page}/`);
++        const res = await this.fetch(`/series/page/${page}/`);
+         const items = await this.querySelectorAll(res, ".th-item");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -222,20 +237,20 @@ export default class extends Extension {
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request("", {
++        // TODO(page): серверна пагінація видачі пошуку не підтверджена
++        const res = await this.fetch(mainUrl, {
+             method: "POST",
+-            data: {
+-                do: "search",
+-                subaction: "search",
+-                story: kw.replace(" ", "+")
+-            },
++            // miru-core не мапить data: на тіло запиту — form-тіло POST
++            // передається через request_body
++            request_body: "do=search&subaction=search&story=" +
++                encodeURIComponent((kw || "").trim().replace(/\s+/g, " ")).replace(/%20/g, "+"),
+             headers: {
+-                "Miru-Url": mainUrl,
+                 "Content-Type": "application/x-www-form-urlencoded"
+             }
+         });
+         
+         const items = await this.querySelectorAll(res, ".th-item");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -282,8 +297,13 @@ export default class extends Extension {
+         
+         const scripts = await this.querySelectorAll(playerHtml, "script");
+         let scriptHtml = "";
+-        for (const script of scripts) {
+-            scriptHtml += (await script.text || "") + "\n";
++        // Вміст <script> у Miru v1 приходить через .content (як в uakino), а не .text
++        for (const script of scripts || []) {
++            scriptHtml += (script?.content || "") + "\n";
++        }
++        
++        if (!scriptHtml.trim()) {
++            throw new Error("SERIALNO_DETAIL_FAIL: no script data in player page");
+         }
+         
+         const fileMatch = scriptHtml.match(/file\s*:\s*["']([^"',']+?)["']/);
+@@ -360,16 +380,13 @@ export default class extends Extension {
+             const data = JSON.parse(url);
+             streamUrl = data.streamUrl || "";
+             if (data.subtitle) {
+-                const subRaw = data.subtitle;
+-                const subName = subRaw.substringAfterLast("[").substringBefore("]");
+-                const subUrl = subRaw.substringAfter("]");
+-                if (subUrl) subtitles.push({ title: subName, url: subUrl });
++                subtitles = parseSubtitle(data.subtitle);
+             }
+         } catch (e) {
+             streamUrl = url; // Fallback, якщо це просто URL
+         }
+ 
+-        if (!streamUrl) throw new Error("No stream URL found");
++        if (!streamUrl) throw new Error("SERIALNO_WATCH_FAIL: no stream URL decoded from state");
+ 
+         const isHls = streamUrl.includes(".m3u8");
+         
+@@ -377,7 +394,7 @@ export default class extends Extension {
+             type: isHls ? "hls" : "mp4",
+             url: streamUrl,
+             headers: {
+-                "Referer": "https://tortuga.wtf/",
++                "Referer": refererFor(streamUrl),
+                 "User-Agent": UA
+             },
+             subtitles: subtitles
+diff --git a/repo/simpsonsua.tv.js b/repo/simpsonsua.tv.js
+index 005599b..7f51704 100644
+--- a/repo/simpsonsua.tv.js
++++ b/repo/simpsonsua.tv.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         SimpsonsUA.tv
+-// @version      v0.0.1
++// @version      v0.0.2
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -120,16 +120,32 @@ export default class extends Extension {
+ 
+     async parseItems(html) {
+         const items = await this.querySelectorAll(html, "#dle-content div.movie_item");
++        // R3: guard перед for..of
++        if (!items || items.length === 0) return [];
+         const results = [];
+         for (const item of items) {
+             const itemHtml = item.content;
+             const href = await this.getAttributeText(itemHtml, "a", "href");
+             if (!href) continue;
+             
++            // Спершу пробуємо og:title, потім h1 (надійніше за коментарний хак)
+             let title = "";
+-            const titleMatch = itemHtml.match(/<!--\s*(.*?)\s*-->/);
+-            if (titleMatch) title = titleMatch[1].trim();
++            try {
++                const ogTitle = await this.getAttributeText(itemHtml, 'meta[property="og:title"]', "content");
++                if (ogTitle) title = cleanTitle(ogTitle);
++            } catch (e) { /* мета може бути відсутня у фрагменті */ }
++            if (!title) {
++                const h1El = await this.querySelector(itemHtml, "h1");
++                title = cleanTitle((await h1El?.text || "").trim());
++            }
+             
++            // Fallback: перший HTML-коментар (крихкий hack під DLE-шаблон)
++            if (!title) {
++                const titleMatch = itemHtml.match(/<!--\s*(.*?)\s*-->/);
++                if (titleMatch) title = titleMatch[1].trim();
++            }
++            
++            // Останній fallback: slug -> слова
+             if (!title) {
+                 const slug = href.split("/").filter(Boolean).pop() || "";
+                 title = slug.replace(/-\d+$/, "").replace(/-/g, " ");
+@@ -151,7 +167,22 @@ export default class extends Extension {
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.fetch(`/?s=${encodeURICompat(kw)}`);
++        // TODO(page): верстка видачі пошуку simpsonsua.tv не підтверджує /page/N/,
++        // pageIndex поки не підключаємо
++        const story = String(kw || "").trim().replace(/\s+/g, " ");
++        // DLE-стандарт: POST /index.php {do:"search",subaction:"search",story:kw}
++        // (GET /?s= — WordPress-стиль, на DLE не працює)
++        // miru-core не мапить data: на тіло запиту — form-тіло POST передається
++        // через request_body; пробіли -> "+" через формне кодування
++        const res = await this.fetch("/index.php", {
++            method: "post",
++            request_body: "do=search&subaction=search&story=" +
++                encodeURIComponent(story).replace(/%20/g, "+"),
++            headers: {
++                // без Content-Type PHP не розбере form-тіло ($_POST лишиться порожнім)
++                "Content-Type": "application/x-www-form-urlencoded"
++            },
++        });
+         return await this.parseItems(res);
+     }
+ 
+@@ -172,7 +203,7 @@ export default class extends Extension {
+         const episodes = [];
+         const isSeasonPage = parseSeasonNumber(url) > 0;
+         
+-        const directCards = await this.querySelectorAll(res, "#dle-content .movie_item");
++        const directCards = (await this.querySelectorAll(res, "#dle-content .movie_item")) || [];
+         
+         if (isSeasonPage) {
+             const seasonNum = parseSeasonNumber(url);
+@@ -196,10 +227,13 @@ export default class extends Extension {
+             // Catalog page: find seasons and fetch them
+             const subItems = [];
+             const links = await this.querySelectorAll(res, "#dle-content .movie_item a");
+-            for (const link of links) {
+-                const href = await this.getAttributeText(link.content, "a", "href");
+-                if (href && parseSeasonNumber(href) > 0) {
+-                    subItems.push(fixUrl(href));
++            // R3: guard перед for..of (self-selector патерн лишено як є)
++            if (links && links.length > 0) {
++                for (const link of links) {
++                    const href = await this.getAttributeText(link.content, "a", "href");
++                    if (href && parseSeasonNumber(href) > 0) {
++                        subItems.push(fixUrl(href));
++                    }
+                 }
+             }
+             
+@@ -249,64 +283,97 @@ export default class extends Extension {
+         };
+     }
+ 
++    // R14: DOM-API збір iframe-ів замість order-dependent regex по атрибутах.
++    // Кандидати URL: спершу значення data-player (якщо воно взагалі URL), потім src.
++    async collectIframes(html) {
++        const frames = [];
++        const nodes = await this.querySelectorAll(html, "iframe");
++        if (!nodes || nodes.length === 0) return frames;
++
++        for (const node of nodes) {
++            const frag = node.content || "";
++            const dp = await this.getAttributeText(frag, "iframe", "data-player");
++            const src = await this.getAttributeText(frag, "iframe", "src");
++
++            const urls = [];
++            for (const raw of [dp, src]) {
++                if (!raw) continue;
++                const fixed = fixUrl(String(raw).trim());
++                if (/^https?:\/\//i.test(fixed) && !urls.includes(fixed)) urls.push(fixed);
++            }
++            if (urls.length > 0) frames.push({ hasDataPlayer: Boolean(dp), urls });
++        }
++        return frames;
++    }
++
+     async watch(url) {
+         if (!url) throw new Error("No stream URL provided");
+         
+         const res = await this.fetch(url);
+         let streamUrl = null;
+-        let referer = mainUrl;
+-        
+-        // 1. Search for standard iframes (Ashdi, etc.)
+-        const iframeRegex = /<iframe[^>]+data-player="([^"]+)"[^>]+src="([^"]+)"/g;
+-        let match;
+-        while ((match = iframeRegex.exec(res)) !== null) {
+-            let iframeUrl = fixUrl(match[2]);
+-            if (iframeUrl.includes("tortuga")) continue;
+-            
+-            try {
+-                const playerHtml = await this.fetch(iframeUrl);
+-                const fileMatch = playerHtml.match(/file\s*:\s*["']([^"']{20,})["']/);
+-                if (fileMatch && fileMatch[1]) {
+-                    if (fileMatch[1].includes(".m3u8")) {
+-                        streamUrl = fileMatch[1];
+-                    } else {
+-                        streamUrl = decodeTortuga(fileMatch[1]);
+-                    }
+-                    if (streamUrl) {
+-                        referer = iframeUrl;
++        let referer = mainUrl + "/";
++
++        // Витяг file: зі сторінки плеєра (пряме m3u8 або tortuga-XOR)
++        const tryFetchStream = async (iframeUrl) => {
++            const playerHtml = await this.fetch(iframeUrl);
++            const fileMatch = playerHtml.match(/file\s*:\s*["']([^"']{20,})["']/);
++            if (fileMatch && fileMatch[1]) {
++                if (fileMatch[1].includes(".m3u8")) {
++                    return fileMatch[1];
++                }
++                return decodeTortuga(fileMatch[1]);
++            }
++            return null;
++        };
++
++        // Referer = origin хоста плеєра + "/" (hostMatch-патерн uakino)
++        const refererFor = (iframeUrl) => {
++            const hostMatch = String(iframeUrl).match(/^(https?:\/\/[^/]+)/);
++            return hostMatch ? hostMatch[1] + "/" : mainUrl + "/";
++        };
++
++        const iframes = await this.collectIframes(res);
++
++        // 1. Стандартні плеєри (Ashdi тощо) — tortuga пропускаємо
++        for (const frame of iframes) {
++            for (const candidate of frame.urls) {
++                if (candidate.includes("tortuga")) continue;
++                try {
++                    const found = await tryFetchStream(candidate);
++                    if (found) {
++                        streamUrl = found;
++                        referer = refererFor(candidate);
+                         break;
+                     }
+-                }
+-            } catch (e) { /* ignore fetch errors */ }
++                } catch (e) { /* ігноруємо недоступні плеєри */ }
++            }
++            if (streamUrl) break;
+         }
+         
+-        // 2. Search for Tortuga iframes
++        // 2. Tortuga iframes (fallback)
+         if (!streamUrl) {
+-            const tortugaRegex = /<iframe[^>]+data-player="([^"]+)"[^>]+src="([^"]*tortuga\.tw[^"]*)"[^>]*>/g;
+-            while ((match = tortugaRegex.exec(res)) !== null) {
+-                let iframeUrl = fixUrl(match[2]);
+-                try {
+-                    const playerHtml = await this.fetch(iframeUrl);
+-                    const fileMatch = playerHtml.match(/file\s*:\s*["']([^"']{20,})["']/);
+-                    if (fileMatch && fileMatch[1]) {
+-                        if (fileMatch[1].includes(".m3u8")) {
+-                            streamUrl = fileMatch[1];
+-                        } else {
+-                            streamUrl = decodeTortuga(fileMatch[1]);
+-                        }
+-                        if (streamUrl) {
+-                            referer = iframeUrl;
++            for (const frame of iframes) {
++                for (const candidate of frame.urls) {
++                    if (!candidate.includes("tortuga")) continue;
++                    try {
++                        const found = await tryFetchStream(candidate);
++                        if (found) {
++                            streamUrl = found;
++                            referer = refererFor(candidate);
+                             break;
+                         }
+-                    }
+-                } catch (e) { /* ignore */ }
++                    } catch (e) { /* ignore */ }
++                }
++                if (streamUrl) break;
+             }
+         }
+ 
+         if (!streamUrl) throw new Error("No playable stream found");
+         
++        // R6: тип за розширенням, замість хардкоду hls
++        const isHls = streamUrl.includes(".m3u8");
+         return {
+-            type: "hls",
++            type: isHls ? "hls" : "mp4",
+             url: streamUrl,
+             headers: {
+                 "Referer": referer,
+diff --git a/repo/uaflix.js b/repo/uaflix.js
+index 7bbe45b..c7cbffb 100644
+--- a/repo/uaflix.js
++++ b/repo/uaflix.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         UAFlix
+-// @version      v0.0.3
++// @version      v0.0.4
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -35,6 +35,103 @@ function parseUAFlixSubtitle(raw) {
+     return { language, url };
+ }
+ 
++// --- Tortuga decoder (без CryptoJS/atob — чистий JS для goja), патерн serialno.tv ---
++
++function bytesToUtf8(bytes) {
++    let str = "";
++    for (let i = 0; i < bytes.length; i++) {
++        const byte1 = bytes[i];
++        if (byte1 < 0x80) {
++            str += String.fromCharCode(byte1);
++        } else if (byte1 < 0xC0) {
++            str += String.fromCharCode(byte1);
++        } else if (byte1 < 0xE0) {
++            const byte2 = bytes[++i];
++            str += String.fromCharCode(((byte1 & 0x1F) << 6) | (byte2 & 0x3F));
++        } else if (byte1 < 0xF0) {
++            const byte2 = bytes[++i];
++            const byte3 = bytes[++i];
++            str += String.fromCharCode(((byte1 & 0x0F) << 12) | ((byte2 & 0x3F) << 6) | (byte3 & 0x3F));
++        } else {
++            const byte2 = bytes[++i];
++            const byte3 = bytes[++i];
++            const byte4 = bytes[++i];
++            let codePoint = ((byte1 & 0x07) << 18) | ((byte2 & 0x3F) << 12) | ((byte3 & 0x3F) << 6) | (byte4 & 0x3F);
++            codePoint -= 0x10000;
++            str += String.fromCharCode(0xD800 + (codePoint >> 10), 0xDC00 + (codePoint & 0x3FF));
++        }
++    }
++    return str;
++}
++
++function base64ToBytes(base64) {
++    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
++    let clean = base64.replace(/[^A-Za-z0-9+/]/g, "");
++    while (clean.length % 4) clean += "=";
++
++    const bytes = [];
++    for (let i = 0; i < clean.length; i += 4) {
++        const c1 = chars.indexOf(clean[i]);
++        const c2 = chars.indexOf(clean[i+1]);
++        const c3 = chars.indexOf(clean[i+2]);
++        const c4 = chars.indexOf(clean[i+3]);
++
++        if (c1 === -1 || c2 === -1) break;
++
++        bytes.push((c1 << 2) | (c2 >> 4));
++        if (c3 !== -1 && clean[i+2] !== "=") bytes.push(((c2 & 15) << 4) | (c3 >> 2));
++        if (c4 !== -1 && clean[i+3] !== "=") bytes.push(((c3 & 3) << 6) | c4);
++    }
++    return new Uint8Array(bytes);
++}
++
++// Розкодовує tortuga-base64 (XOR salt+7*(i-1)+13); повертає http(s)-URL або null
++function decodeTortugaUrl(encoded) {
++    if (!encoded) return null;
++    try {
++        let clean = String(encoded).replace(/\s/g, "").replace(/=+$/, "");
++        if (!clean) return null;
++        const pad = clean.length % 4;
++        if (pad === 1) {
++            clean = clean.slice(0, -1);
++        } else if (pad > 1) {
++            clean += "=".repeat(4 - pad);
++        }
++
++        const bytes = base64ToBytes(clean);
++        if (bytes.length < 2) return null;
++
++        const salt = bytes[0];
++        const result = new Uint8Array(bytes.length - 1);
++        for (let i = 1; i < bytes.length; i++) {
++            const key = (salt + 7 * (i - 1) + 13) % 256;
++            result[i - 1] = (bytes[i] ^ key) & 0xFF;
++        }
++
++        const str = bytesToUtf8(result);
++        return (str.startsWith("http://") || str.startsWith("https://")) ? str : null;
++    } catch (e) {
++        return null;
++    }
++}
++
++// Єдине місце резолву file:-значення: пряме посилання → tortuga → null
++function resolveUAFlixFile(rawFile) {
++    if (!rawFile) return null;
++    const raw = String(rawFile).trim();
++    if (/^https?:\/\//i.test(raw)) return raw;
++    if (raw.startsWith("//")) return "https:" + raw;
++    // Значення що починається на { [ { — це структурований плейлист JSON, його тут не декодуємо
++    if (raw.startsWith("{") || raw.startsWith("[")) return null;
++    return decodeTortugaUrl(raw);
++}
++
++// Referer по origin стрім-URL замість хардкоду tortuga
++function refererFor(streamUrl) {
++    const m = /^(https?:\/\/[^/]+)/.exec(streamUrl || "");
++    return m ? m[1] + "/" : mainUrl + "/";
++}
++
+ export default class extends Extension {
+     async fetch(url, options = {}) {
+         options.headers = options.headers || {};
+@@ -52,8 +149,9 @@ export default class extends Extension {
+     async checkUpdate(url) { return ""; }
+ 
+     async latest(page) {
+-        const res = await this.request(`/film/page/${page}/`);
++        const res = await this.fetch(`/film/page/${page}/`);
+         const items = await this.querySelectorAll(res, ".video-item");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -72,8 +170,10 @@ export default class extends Extension {
+     }
+ 
+     async search(kw, page, filter) {
+-        const res = await this.request(`/index.php?do=search&subaction=search&search_start=0&story=${encodeURIComponent(kw)}`);
++        // DLE GET-пошук працює на цьому сайті; TODO(page): search_start поки фіксований
++        const res = await this.fetch(`/index.php?do=search&subaction=search&search_start=0&story=${encodeURIComponent((kw || "").trim())}`);
+         const items = await this.querySelectorAll(res, ".sres-wrap");
++        if (!items || items.length === 0) return [];
+         const results = [];
+         
+         for (const item of items) {
+@@ -95,17 +195,18 @@ export default class extends Extension {
+         
+         const scripts = await this.querySelectorAll(playerHtml, "script");
+         let scriptHtml = "";
+-        for (const script of scripts) {
+-            scriptHtml += (await script.text || "") + "\n";
++        // Вміст <script> у Miru v1 приходить через .content (як в uakino)
++        for (const script of scripts || []) {
++            scriptHtml += (script?.content || "") + "\n";
+         }
+         
+         const fileMatch = scriptHtml.match(/file\s*:\s*["']([^"']+)["']/);
+-        if (!fileMatch || !fileMatch[1]) throw new Error("No file: found in player scripts");
++        if (!fileMatch || !fileMatch[1]) throw new Error("UAFLIX_PARSE_FAIL: no file: found in player scripts");
+         
+         const rawFile = fileMatch[1];
+         
+-        // Якщо це пряме посилання на m3u8 (для фільмів на /vod/)
+-        if (rawFile.startsWith("http")) {
++        // Пряме посилання (можливо protocol-relative)
++        if (/^https?:\/\//i.test(rawFile) || rawFile.startsWith("//")) {
+             const subtitleMatch = scriptHtml.match(/subtitle\s*:\s*["']([^"']*)["']/);
+             let subtitle = null;
+             if (subtitleMatch && subtitleMatch[1]) {
+@@ -114,20 +215,36 @@ export default class extends Extension {
+             return { isDirectUrl: true, directUrl: rawFile, subtitle };
+         }
+         
+-        let playlist;
+-        try {
+-            playlist = JSON.parse(rawFile);
+-        } catch (e) {
+-            throw new Error("Failed to parse playlist JSON: " + e.message);
++        // Структурований плейлист (серіали)
++        if (rawFile.startsWith("{") || rawFile.startsWith("[")) {
++            let playlist;
++            try {
++                playlist = JSON.parse(rawFile);
++            } catch (e) {
++                throw new Error("UAFLIX_PARSE_FAIL: playlist JSON: " + e.message);
++            }
++            
++            const subtitleMatch = scriptHtml.match(/subtitle\s*:\s*["']([^"']*)["']/);
++            let subtitle = null;
++            if (subtitleMatch && subtitleMatch[1]) {
++                subtitle = parseUAFlixSubtitle(subtitleMatch[1]);
++            }
++            
++            return { isDirectUrl: false, playlist, subtitle };
+         }
+         
+-        const subtitleMatch = scriptHtml.match(/subtitle\s*:\s*["']([^"']*)["']/);
+-        let subtitle = null;
+-        if (subtitleMatch && subtitleMatch[1]) {
+-            subtitle = parseUAFlixSubtitle(subtitleMatch[1]);
++        // Закодоване tortuga-значення — це пряме посилання по суті
++        const decoded = decodeTortugaUrl(rawFile);
++        if (decoded) {
++            const subtitleMatch = scriptHtml.match(/subtitle\s*:\s*["']([^"']*)["']/);
++            let subtitle = null;
++            if (subtitleMatch && subtitleMatch[1]) {
++                subtitle = parseUAFlixSubtitle(subtitleMatch[1]);
++            }
++            return { isDirectUrl: true, directUrl: decoded, subtitle };
+         }
+         
+-        return { isDirectUrl: false, playlist, subtitle };
++        throw new Error("UAFLIX_PARSE_FAIL: unknown file payload: " + rawFile.substring(0, 60));
+     }
+ 
+     async detail(url) {
+@@ -223,7 +340,10 @@ export default class extends Extension {
+                     subtitles.push({ title: playerData.subtitle.language, url: playerData.subtitle.url });
+                 }
+             } else if (Array.isArray(playerData.playlist)) {
+-                streamUrl = playerData.playlist[0]?.file || "";
++                streamUrl = resolveUAFlixFile(playerData.playlist[0]?.file) || "";
++                if (!streamUrl) {
++                    throw new Error("UAFLIX_WATCH_FAIL: cannot decode movie file from playlist");
++                }
+                 if (playerData.playlist[0]?.subtitle) {
+                     const sub = parseUAFlixSubtitle(playerData.playlist[0].subtitle);
+                     if (sub) subtitles.push({ title: sub.language, url: sub.url });
+@@ -244,7 +364,10 @@ export default class extends Extension {
+                         if (season.title === seasonTitle && season.folder) {
+                             for (const ep of season.folder) {
+                                 if (ep.title === episodeTitle && ep.file) {
+-                                    streamUrl = ep.file;
++                                    streamUrl = resolveUAFlixFile(ep.file);
++                                    if (!streamUrl) {
++                                        throw new Error("UAFLIX_WATCH_FAIL: cannot decode episode file");
++                                    }
+                                     if (ep.subtitle) {
+                                         const sub = parseUAFlixSubtitle(ep.subtitle);
+                                         if (sub) subtitles.push({ title: sub.language, url: sub.url });
+@@ -258,13 +381,13 @@ export default class extends Extension {
+             }
+         }
+ 
+-        if (!streamUrl) throw new Error("Failed to extract stream URL");
++        if (!streamUrl) throw new Error("UAFLIX_WATCH_FAIL: no stream extracted for " + String(url).slice(0, 60));
+ 
+         return {
+-            type: "hls",
++            type: streamUrl.includes(".m3u8") ? "hls" : "mp4",
+             url: streamUrl,
+             headers: {
+-                "Referer": "https://tortuga.wtf/",
++                "Referer": refererFor(streamUrl),
+                 "User-Agent": UA
+             },
+             subtitles: subtitles
+diff --git a/repo/uaserials.pro.js b/repo/uaserials.pro.js
+index fcb582f..ab74fd8 100644
+--- a/repo/uaserials.pro.js
++++ b/repo/uaserials.pro.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         UASerialsPro
+-// @version      v0.0.1
++// @version      v0.0.2
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -12,7 +12,8 @@
+ 
+ const mainUrl = "https://uaserials.com";
+ const UA = "Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0";
+-const AES_PASSWORD = "297796CCB81D255125"; // Знайдено в md-інструкції
++// site secret, rotate if playback breaks (знайдено у md-інструкції сайту)
++const AES_PASSWORD = "297796CCB81D255125";
+ 
+ function fixUrl(url) {
+     if (!url) return "";
+@@ -44,6 +45,24 @@ function bytesToUint8Array(wordArray) {
+     return u8;
+ }
+ 
++// Парсить payload формату Name1{URL1};Name2{URL2} -> [{name, url}]
++function parseVoiceTracks(payload) {
++    const tracks = [];
++    for (const chunk of String(payload || "").split(";")) {
++        const start = chunk.indexOf("{");
++        const end = chunk.lastIndexOf("}");
++        if (start !== -1 && end > start) {
++            const name = chunk.substring(0, start).trim().replace(/^["']+|["']+$/g, "");
++            const url = chunk.substring(start + 1, end).trim();
++            if (url) tracks.push({ name, url });
++        } else if (chunk.trim()) {
++            // Трек без імені/дужок — прямий URL
++            tracks.push({ name: "", url: chunk.trim() });
++        }
++    }
++    return tracks;
++}
++
+ // Tortuga XOR Decoder
+ function decodeTortuga(encoded) {
+     if (!encoded) return null;
+@@ -92,18 +111,27 @@ function decryptAES(encryptedData, pass) {
+             { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.NoPadding }
+         );
+         
+-        let result = decrypted.toString(CryptoJS.enc.Utf8).replace(/\\/g, "");
+-        const lastBracket = result.lastIndexOf("]");
+-        if (lastBracket !== -1) {
+-            result = result.substring(0, lastBracket + 1);
+-        }
+-        return result;
++        return decrypted.toString(CryptoJS.enc.Utf8).replace(/\\/g, "");
+     } catch (e) {
+         // Виводимо справжню помилку CryptoJS
+         throw new Error("AES_DECRYPT_ERR: " + e.message + " (Salt len: " + (encryptedData.salt?.length || 0) + ")");
+     }
+ }
+ 
++// Агресивний sanitize decrypted JSON — лишено навмисно (робочий hack):
++// PBKDF2-NoPadding іноді дає бруд після останнього ']'
++function sanitizeDecryptedJson(raw) {
++    let result = raw || "";
++    const lastBracket = result.lastIndexOf("]");
++    if (lastBracket !== -1) {
++        result = result.substring(0, lastBracket + 1);
++    }
++    if (!result || result.trim().length === 0 || (result.indexOf("[") === -1 && result.indexOf("{") === -1)) {
++        throw new Error("AES_DECRYPT_EMPTY: decryption produced no usable JSON payload (site secret changed? check AES_PASSWORD)");
++    }
++    return result;
++}
++
+ export default class extends Extension {
+     async fetch(url, options = {}) {
+         options.headers = options.headers || {};
+@@ -126,7 +154,8 @@ export default class extends Extension {
+     }
+ 
+     async latest(page) {
+-        const res = await this.request(`/films/page/${page}/`);
++        // R4: через fetch-wrapper (UA + Referer), а не голий this.request
++        const res = await this.fetch(`/films/page/${page}/`);
+         const items = await this.querySelectorAll(res, ".short-item");
+         const results = [];
+         
+@@ -137,7 +166,9 @@ export default class extends Extension {
+             
+             const titleEl = await this.querySelector(html, "div.th-title.truncate");
+             const title = (await titleEl?.text || "").trim();
+-            const poster = await this.getAttributeText(html, ".img-fit img", "data-src");
++            // data-src || src (lazyload fallback)
++            let poster = await this.getAttributeText(html, ".img-fit img", "data-src");
++            if (!poster) poster = await this.getAttributeText(html, ".img-fit img", "src");
+             
+             results.push({ title, url: fixUrl(href), cover: fixUrl(poster) });
+         }
+@@ -146,7 +177,8 @@ export default class extends Extension {
+ 
+     async search(kw, page, filter) {
+         const encodedQuery = encodeURIComponent(kw).replace(/\+/g, "%20");
+-        const res = await this.request(`/search/${encodedQuery}/`);
++        // R4: через fetch-wrapper (UA + Referer), а не голий this.request
++        const res = await this.fetch(`/search/${encodedQuery}/`);
+         const items = await this.querySelectorAll(res, ".uas-card");
+         const results = [];
+         
+@@ -157,7 +189,9 @@ export default class extends Extension {
+             
+             const titleEl = await this.querySelector(html, ".uas-card__title");
+             const title = (await titleEl?.text || "").trim();
++            // data-src || src (lazyload fallback)
+             let poster = await this.getAttributeText(html, ".uas-card__img", "data-src");
++            if (!poster) poster = await this.getAttributeText(html, ".uas-card__img", "src");
+             if (poster && poster.startsWith("/")) poster = mainUrl + poster;
+             
+             results.push({ title, url: fixUrl(href), cover: fixUrl(poster) });
+@@ -203,10 +237,7 @@ export default class extends Extension {
+             throw new Error("Failed to parse AES data: " + e.message + " | RAW: " + rawTag1.substring(0, 100));
+         }
+ 
+-        const decryptedJson = decryptAES(aesData, AES_PASSWORD);
+-        if (!decryptedJson) {
+-            throw new Error("AES Decryption failed");
+-        }
++        const decryptedJson = sanitizeDecryptedJson(decryptAES(aesData, AES_PASSWORD));
+ 
+         let playerTabs;
+         try {
+@@ -259,28 +290,42 @@ export default class extends Extension {
+                 throw new Error("Failed to parse seasons JSON: " + e.message);
+             }
+ 
+-            const episodes = [];
++            // R7 (voiceMap-патерн uakino): епізоди групуються по озвучках ще тут,
++            // щоб watch() отримував прямий URL вибраної озвучки, а не перший трек payload.
++            const DEFAULT_VOICE = "Основна озвучка";
++            const voiceOrder = [];
++            const voiceMap = {};
+             for (let s = 0; s < seasons.length; s++) {
+                 const season = seasons[s];
+                 const seasonNum = parseInt(season.season, 10) || (s + 1);
++                const folder = Array.isArray(season.folder) ? season.folder : [];
+                 
+-                for (let e = 0; e < season.folder.length; e++) {
+-                    const ep = season.folder[e];
++                for (let e = 0; e < folder.length; e++) {
++                    const ep = folder[e];
+                     const epNum = parseInt(ep.number, 10) || (e + 1);
+                     const epName = ep.title || `Серія ${epNum}`;
+-                    const epUrl = ep.file; // Формат: Name1{URL1};Name2{URL2}
++                    const epLabel = `${epName} (Сезон ${seasonNum})`;
+                     
+-                    if (epUrl) {
+-                        episodes.push({
+-                            name: `${epName} (Сезон ${seasonNum})`,
+-                            url: epUrl
+-                        });
++                    // ep.file має формат Name1{URL1};Name2{URL2} — парсимо голоси
++                    for (const tr of parseVoiceTracks(ep.file)) {
++                        const voice = tr.name || DEFAULT_VOICE;
++                        if (!voiceMap[voice]) {
++                            voiceMap[voice] = [];
++                            voiceOrder.push(voice);
++                        }
++                        voiceMap[voice].push({ name: epLabel, url: fixTls(tr.url) });
+                     }
+                 }
+             }
+             
+-            if (episodes.length > 0) {
+-                episodeGroups.push({ title: "Серії", urls: episodes });
++            const voices = voiceOrder.filter(v => voiceMap[v] && voiceMap[v].length > 0);
++            if (voices.length > 1) {
++                // Кілька озвучок — окрема група на кожну (юзер отримує вибір)
++                for (const v of voices) {
++                    episodeGroups.push({ title: v, urls: voiceMap[v] });
++                }
++            } else if (voices.length === 1) {
++                episodeGroups.push({ title: "Серії", urls: voiceMap[voices[0]] });
+             }
+         } else if (decodedFile) {
+             // Movie
+@@ -306,33 +351,32 @@ export default class extends Extension {
+     async watch(url) {
+         if (!url) throw new Error("No stream URL provided");
+         
+-        // Для серіалів URL має формат: Name1{URL1};Name2{URL2}
+-        // Для фільмів URL це прямий m3u8 URL
++        // Detail() тепер сам групує по озвучках (R7) і віддає прямі URL.
++        // Блок нижче — тільки defense-in-depth на випадок легасі payload Name1{URL1};Name2{URL2}.
+         let finalStreamUrl = url;
+         
+         if (url.includes("{") && url.includes("}")) {
+-            // Серіал: беремо перший доступний трек
+-            const tracks = url.split(";");
+-            for (const track of tracks) {
+-                const urlStart = track.indexOf("{");
+-                const urlEnd = track.indexOf("}");
+-                if (urlStart !== -1 && urlEnd !== -1 && urlEnd > urlStart) {
+-                    finalStreamUrl = track.substring(urlStart + 1, urlEnd);
+-                    break;
+-                }
++            const tracks = parseVoiceTracks(url);
++            if (tracks.length > 0 && tracks[0].url) {
++                finalStreamUrl = tracks[0].url;
+             }
+         }
+ 
+         // Застосовуємо TLS fallback
+         finalStreamUrl = fixTls(finalStreamUrl);
+         
++        // Referer динамічний по хосту стрім-URL (hostMatch-патерн uakino):
++        // пайплайн містить як tortuga.tw, так і ashdi.vip
++        const hostMatch = finalStreamUrl.match(/^(https?:\/\/[^/]+)/);
++        const referer = hostMatch ? hostMatch[1] + "/" : mainUrl + "/";
++        
+         const isHls = finalStreamUrl.includes(".m3u8");
+         
+         return {
+             type: isHls ? "hls" : "mp4",
+             url: finalStreamUrl,
+             headers: {
+-                "Referer": "https://tortuga.tw/",
++                "Referer": referer,
+                 "User-Agent": UA
+             }
+         };
+diff --git a/repo/unimay.media.js b/repo/unimay.media.js
+index 260d100..d43ed85 100644
+--- a/repo/unimay.media.js
++++ b/repo/unimay.media.js
+@@ -1,6 +1,6 @@
+ // ==MiruExtension==
+ // @name         Unimay
+-// @version      v0.0.2
++// @version      v0.0.3
+ // @author       CakesTwix
+ // @lang         uk
+ // @license      MIT
+@@ -14,13 +14,18 @@ export default class extends Extension {
+     imagesUrl = "https://img.unimay.media/";
+     referer = "https://www.unimay.media";
+ 
++    // poster може бути відсутній — інакше виходить мертвий cover ".../undefined?width=640"
++    coverFor(poster) {
++        return poster ? `${this.imagesUrl}${poster}?width=640&format=webp` : "";
++    }
++
+     async latest(page) {
+         const res = await this.request(`/v1/release/search?page_size=20&page=${page - 1}`);
+         if (!res || !res.content) return [];
+         return res.content.map(item => ({
+             title: item.names?.ukr || "Без назви",
+             url: item.code,
+-            cover: this.imagesUrl + item.images?.poster + "?width=640&format=webp",
++            cover: this.coverFor(item.images?.poster),
+             update: `${item.playlistSize || 0} еп.`
+         }));
+     }
+@@ -31,7 +36,7 @@ export default class extends Extension {
+         return res.content.map(item => ({
+             title: item.names?.ukr || "Без назви",
+             url: item.code,
+-            cover: this.imagesUrl + item.images?.poster + "?width=640&format=webp",
++            cover: this.coverFor(item.images?.poster),
+             update: `${item.playlistSize || 0} еп.`
+         }));
+     }
+@@ -62,7 +67,7 @@ export default class extends Extension {
+ 
+         return {
+             title: res.names?.ukr || "Без назви",
+-            cover: this.imagesUrl + res.images?.poster + "?width=640&format=webp",
++            cover: this.coverFor(res.images?.poster),
+             desc: res.description || "",
+             episodes: [{
+                 title: "Епізоди",
