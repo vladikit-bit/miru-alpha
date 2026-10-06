@@ -1,0 +1,37 @@
+diff --git a/lib/utils/request.dart b/lib/utils/request.dart
+index 1e42b17..9ba8246 100644
+--- a/lib/utils/request.dart
++++ b/lib/utils/request.dart
+@@ -1,6 +1,7 @@
+ import 'package:cookie_jar/cookie_jar.dart';
+ import 'package:dio/dio.dart';
+ import 'package:dio_cookie_manager/dio_cookie_manager.dart';
++import 'package:dio_http2_adapter/dio_http2_adapter.dart';
+ import 'package:flutter_socks_proxy/socks_proxy.dart';
+ import 'package:miru_app/utils/miru_directory.dart';
+ import 'package:miru_app/utils/miru_storage.dart';
+@@ -17,6 +18,12 @@ class MiruRequest {
+ 
+   static Future<void> ensureInitialized() async {
+     dio = Dio();
++    dio.httpClientAdapter = Http2Adapter(
++      ConnectionManager(
++        idleTimeout: const Duration(seconds: 10),
++      ),
++    );
++
+     final cookieManager = CookieManager(_cookieJar);
+     dio.interceptors.add(cookieManager);
+     refreshProxy();
+diff --git a/pubspec.yaml b/pubspec.yaml
+index c5c28fc..ca3bacf 100644
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+@@ -10,6 +10,7 @@ dependencies:
+   desktop_multi_window: ^0.2.0
+   dio: ^5.3.2
+   dio_cookie_manager: ^3.1.0+1
++  dio_http2_adapter: ^2.7.1
+   easy_refresh: ^3.3.2+1
+   fluent_ui: ^4.7.6
+   flutter:
